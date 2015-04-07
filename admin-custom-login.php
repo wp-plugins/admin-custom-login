@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Admin Costum Login
- * Version: 1.0
+ * Version: 1.1
  * Responsive Login Form Allow You Setting Of login Form.
  * Author: weblizar
  * Author URI: http://www.weblizar.com

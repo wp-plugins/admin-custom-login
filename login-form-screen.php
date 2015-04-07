@@ -77,7 +77,7 @@ function acl_er_login_logo() {
 	//require social icon css
 	require_once('css/socialcss.php');
 ?>
-<script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
 <script type="text/javascript">
       WebFont.load({
         google: {

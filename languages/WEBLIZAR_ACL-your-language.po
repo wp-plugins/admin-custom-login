@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: admin-custom-login\n"
-"POT-Creation-Date: 2015-03-20 14:41+0530\n"
-"PO-Revision-Date: 2015-03-20 14:41+0530\n"
+"POT-Creation-Date: 2015-04-07 10:44+0530\n"
+"PO-Revision-Date: 2015-04-07 10:44+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -16,278 +16,299 @@ msgstr ""
 "X-Poedit-KeywordsList: _e;__;_\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../js/jquery-ui.js:8
-msgid "'"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:146
+#: ../includes/Login-form-setting/Login-form-background.php:155
 msgid "Login Settings"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:158
+#: ../includes/Login-form-setting/Login-form-background.php:168
 msgid "Login from Floating"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:164
+#: ../includes/Login-form-setting/Login-form-background.php:174
 msgid "Left"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:167
+#: ../includes/Login-form-setting/Login-form-background.php:177
 msgid "Center"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:170
+#: ../includes/Login-form-setting/Login-form-background.php:180
 msgid "Right"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:184
-#: ../includes/design/background.php:119
-msgid "Background Color"
+#: ../includes/Login-form-setting/Login-form-background.php:191
+#: ../includes/design/background.php:99
+msgid "Select Background"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:197
+#: ../includes/design/background.php:106
+msgid "Select background"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:198
+#: ../includes/design/background.php:107
+msgid "Static Background Color"
 msgstr ""
 
 #: ../includes/Login-form-setting/Login-form-background.php:199
-msgid "Login Form Opacity"
+#: ../includes/design/background.php:108
+msgid "Static Background Image"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:216
-#: ../includes/design/background.php:135
-msgid "Background Noise"
+#: ../includes/Login-form-setting/Login-form-background.php:215
+#: ../includes/design/background.php:127
+msgid "Background Color"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:222
-#: ../includes/Login-form-setting/Login-form-background.php:341
-#: ../includes/design/background.php:141
-msgid "None"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:225
-#: ../includes/design/background.php:144
-msgid "Noise"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:236
-#: ../includes/design/background.php:156
-msgid "Background Effect"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:242
-msgid "Select overlay effect"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:243
-msgid "No Overlay Effect"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:244
-#: ../includes/Login-form-setting/Login-form-background.php:245
-#: ../includes/Login-form-setting/Login-form-background.php:246
-#: ../includes/design/background.php:163 ../includes/design/background.php:164
-#: ../includes/design/background.php:165 ../includes/design/background.php:166
-msgid "Overlay Effect"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:261
-#: ../includes/design/background.php:185 ../includes/design/background.php:204
+#: ../includes/Login-form-setting/Login-form-background.php:235
+#: ../includes/design/background.php:149 ../includes/design/background.php:168
 msgid "Background Image"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:266
-#: ../includes/design/background.php:190
-#: ../includes/settings/page-settings.php:60
+#: ../includes/Login-form-setting/Login-form-background.php:240
+#: ../includes/design/background.php:154
+#: ../includes/settings/page-settings.php:58
 msgid "No media selected!"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:267
-#: ../includes/design/background.php:192
-#: ../includes/settings/page-settings.php:61
+#: ../includes/Login-form-setting/Login-form-background.php:241
+#: ../includes/design/background.php:156
+#: ../includes/settings/page-settings.php:59
 msgid "Upload"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:269
-#: ../includes/design/background.php:194
-#: ../includes/settings/page-settings.php:62
+#: ../includes/Login-form-setting/Login-form-background.php:243
+#: ../includes/settings/page-settings.php:60
 msgid "preview"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:271
-#: ../includes/design/background.php:196
+#: ../includes/Login-form-setting/Login-form-background.php:245
+#: ../includes/design/background.php:160
 msgid "Remove"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:279
+#: ../includes/Login-form-setting/Login-form-background.php:253
 msgid "Login Background Image"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:285
-#: ../includes/Login-form-setting/Login-form-background.php:474
+#: ../includes/Login-form-setting/Login-form-background.php:259
+#: ../includes/Login-form-setting/Login-form-background.php:487
+#: ../includes/Login-form-setting/Login-form-background.php:501
 #: ../includes/dashboard/dashboard.php:64
-#: ../includes/design/background.php:212 ../includes/design/background.php:422
-#: ../includes/design/text_and_color.php:2631
-#: ../includes/settings/page-settings.php:142
-#: ../includes/social/social.php:181
+#: ../includes/dashboard/dashboard.php:78
+#: ../includes/design/background.php:176 ../includes/design/background.php:365
+#: ../includes/design/background.php:380
+#: ../includes/design/text_and_color.php:2636
+#: ../includes/design/text_and_color.php:2651
+#: ../includes/settings/page-settings.php:140
+#: ../includes/settings/page-settings.php:154
+#: ../includes/social/social.php:180 ../includes/social/social.php:194
 msgid "Close"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:300
-msgid "Login Form Width"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:318
-msgid "Border Radius"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:335
-msgid "Border Style"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:342
-msgid "Solid"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:343
-msgid "Dotted"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:344
-msgid "Dashed"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:345
-msgid "Double"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:356
-msgid "Border Thickness"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:373
-msgid "Border Color"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:388
-#: ../includes/design/background.php:244
+#: ../includes/Login-form-setting/Login-form-background.php:274
+#: ../includes/design/background.php:209
 msgid "Background Repeat"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:394
-#: ../includes/design/background.php:251
+#: ../includes/Login-form-setting/Login-form-background.php:280
+#: ../includes/design/background.php:216
 msgid "No Repeat "
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:395
-#: ../includes/design/background.php:252
+#: ../includes/Login-form-setting/Login-form-background.php:281
+#: ../includes/design/background.php:217
 msgid "Repeat"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:396
-#: ../includes/design/background.php:253
+#: ../includes/Login-form-setting/Login-form-background.php:282
+#: ../includes/design/background.php:218
 msgid "Repeat Horizontally"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:397
-#: ../includes/design/background.php:254
+#: ../includes/Login-form-setting/Login-form-background.php:283
+#: ../includes/design/background.php:219
 msgid "Repeat Vertically"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:408
-#: ../includes/design/background.php:266
+#: ../includes/Login-form-setting/Login-form-background.php:294
+#: ../includes/design/background.php:231
 msgid "Background Position "
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:414
-#: ../includes/design/background.php:272
+#: ../includes/Login-form-setting/Login-form-background.php:300
+#: ../includes/design/background.php:237
 msgid "Left Top"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:415
-#: ../includes/design/background.php:273
+#: ../includes/Login-form-setting/Login-form-background.php:301
+#: ../includes/design/background.php:238
 msgid "Left Center"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:416
-#: ../includes/design/background.php:274
+#: ../includes/Login-form-setting/Login-form-background.php:302
+#: ../includes/design/background.php:239
 msgid "Left Bottom"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:417
-#: ../includes/design/background.php:275
+#: ../includes/Login-form-setting/Login-form-background.php:303
+#: ../includes/design/background.php:240
 msgid "Right Top"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:418
-#: ../includes/design/background.php:276
+#: ../includes/Login-form-setting/Login-form-background.php:304
+#: ../includes/design/background.php:241
 msgid "Right Center"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:419
-#: ../includes/design/background.php:277
+#: ../includes/Login-form-setting/Login-form-background.php:305
+#: ../includes/design/background.php:242
 msgid "Right Bottom"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:420
-#: ../includes/design/background.php:278
+#: ../includes/Login-form-setting/Login-form-background.php:306
+#: ../includes/design/background.php:243
 msgid "Center Top"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:421
-#: ../includes/design/background.php:279
+#: ../includes/Login-form-setting/Login-form-background.php:307
+#: ../includes/design/background.php:244
 msgid "Center Center"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:422
-#: ../includes/design/background.php:280
+#: ../includes/Login-form-setting/Login-form-background.php:308
+#: ../includes/design/background.php:245
 msgid "Center Bottom"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:433
+#: ../includes/Login-form-setting/Login-form-background.php:320
+msgid "Background Effect"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:326
+msgid "Select overlay effect"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:327
+msgid "No Overlay Effect"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:328
+msgid "Overlay Effect 1"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:329
+msgid "Overlay Effect 2"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:330
+msgid "Overlay Effect 3"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:342
+msgid "Login Form Opacity"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:359
+msgid "Login Form Width"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:376
+msgid "Border Color"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:391
+msgid "Border Radius"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:408
+msgid "Border Style"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:414
+msgid "None"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:415
+msgid "Solid"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:416
+msgid "Dotted"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:417
+msgid "Dashed"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:418
+msgid "Double"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:429
+msgid "Border Thickness"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:446
 msgid "Enable form shadow?"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:439
-#: ../includes/design/background.php:233
-#: ../includes/design/text_and_color.php:291
-#: ../includes/design/text_and_color.php:2578
+#: ../includes/Login-form-setting/Login-form-background.php:452
+#: ../includes/design/background.php:197
+#: ../includes/design/text_and_color.php:286
+#: ../includes/design/text_and_color.php:2573
 msgid "Yes"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:442
-#: ../includes/design/text_and_color.php:294
-#: ../includes/design/text_and_color.php:2581
+#: ../includes/Login-form-setting/Login-form-background.php:455
+#: ../includes/design/text_and_color.php:289
+#: ../includes/design/text_and_color.php:2576
 msgid "No"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:453
+#: ../includes/Login-form-setting/Login-form-background.php:466
 msgid "Form Shadow Color"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:474
+#: ../includes/Login-form-setting/Login-form-background.php:487
+#: ../includes/Login-form-setting/Login-form-background.php:501
 msgid "Login "
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:474
+#: ../includes/Login-form-setting/Login-form-background.php:487
 #: ../includes/dashboard/dashboard.php:64
-#: ../includes/design/background.php:422
-#: ../includes/design/text_and_color.php:2631
-#: ../includes/settings/page-settings.php:142
-#: ../includes/social/social.php:181
+#: ../includes/design/background.php:365
+#: ../includes/design/text_and_color.php:2636
+#: ../includes/settings/page-settings.php:140
+#: ../includes/social/social.php:180
 msgid "Setting Save Successfully"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:481
-#: ../includes/dashboard/dashboard.php:71
-#: ../includes/design/background.php:430
-#: ../includes/design/text_and_color.php:2639
-#: ../includes/settings/page-settings.php:149
-#: ../includes/social/social.php:188
+#: ../includes/Login-form-setting/Login-form-background.php:501
+#: ../includes/dashboard/dashboard.php:78
+#: ../includes/design/background.php:380
+#: ../includes/design/text_and_color.php:2651
+#: ../includes/settings/page-settings.php:154
+#: ../includes/social/social.php:194
+msgid "Setting Reset Successfully"
+msgstr ""
+
+#: ../includes/Login-form-setting/Login-form-background.php:508
+#: ../includes/dashboard/dashboard.php:85
+#: ../includes/design/background.php:388
+#: ../includes/design/text_and_color.php:2659
+#: ../includes/settings/page-settings.php:161
+#: ../includes/social/social.php:201
 msgid "Save Changes"
 msgstr ""
 
-#: ../includes/Login-form-setting/Login-form-background.php:484
-#: ../includes/dashboard/dashboard.php:74
-#: ../includes/design/background.php:433
-#: ../includes/design/text_and_color.php:2642
-#: ../includes/settings/page-settings.php:152
-#: ../includes/social/social.php:191
+#: ../includes/Login-form-setting/Login-form-background.php:511
+#: ../includes/dashboard/dashboard.php:88
+#: ../includes/design/background.php:391
+#: ../includes/design/text_and_color.php:2662
+#: ../includes/settings/page-settings.php:164
+#: ../includes/social/social.php:204
 msgid "Reset Default"
 msgstr ""
 
@@ -295,59 +316,63 @@ msgstr ""
 msgid "Admin Custom Login"
 msgstr ""
 
-#: ../includes/content.php:103
+#: ../includes/content.php:70
+msgid "  Login Preview"
+msgstr ""
+
+#: ../includes/content.php:98
 msgid "Powered By"
 msgstr ""
 
-#: ../includes/content.php:105
+#: ../includes/content.php:100
 msgid "Weblizar"
 msgstr ""
 
-#: ../includes/content.php:114
+#: ../includes/content.php:109
 msgid "Dashboard"
 msgstr ""
 
-#: ../includes/content.php:115
+#: ../includes/content.php:110
 msgid "Application overview"
 msgstr ""
 
-#: ../includes/content.php:124
+#: ../includes/content.php:119
 msgid "Background Design"
 msgstr ""
 
-#: ../includes/content.php:125
+#: ../includes/content.php:120
 msgid "Modify Background design here"
 msgstr ""
 
-#: ../includes/content.php:135
+#: ../includes/content.php:130
 msgid "Login form Setting"
 msgstr ""
 
-#: ../includes/content.php:136
+#: ../includes/content.php:131
 msgid "Modify Login design here"
 msgstr ""
 
-#: ../includes/content.php:146
+#: ../includes/content.php:141
 msgid "Font Setting"
 msgstr ""
 
-#: ../includes/content.php:147
+#: ../includes/content.php:142
 msgid "Modify Login Form Style here"
 msgstr ""
 
-#: ../includes/content.php:157 ../includes/settings/page-settings.php:43
+#: ../includes/content.php:152 ../includes/settings/page-settings.php:41
 msgid "Logo Settings"
 msgstr ""
 
-#: ../includes/content.php:158
+#: ../includes/content.php:153
 msgid "Customize Logo Settings here"
 msgstr ""
 
-#: ../includes/content.php:169 ../includes/social/social.php:18
+#: ../includes/content.php:164 ../includes/social/social.php:17
 msgid "Social Settings"
 msgstr ""
 
-#: ../includes/content.php:170
+#: ../includes/content.php:165
 msgid "Connect with your social profile"
 msgstr ""
 
@@ -376,323 +401,294 @@ msgid "Open Your WP Login Page in a New Tab"
 msgstr ""
 
 #: ../includes/dashboard/dashboard.php:64
+#: ../includes/dashboard/dashboard.php:78
 msgid "Dashboard "
 msgstr ""
 
-#: ../includes/design/background.php:78
+#: ../includes/design/background.php:87
 msgid "Background Settings"
 msgstr ""
 
-#: ../includes/design/background.php:90
-msgid "Select Background"
-msgstr ""
-
-#: ../includes/design/background.php:96
+#: ../includes/design/background.php:105
 msgid "No background Selected"
 msgstr ""
 
-#: ../includes/design/background.php:97
-msgid "Select background"
-msgstr ""
-
-#: ../includes/design/background.php:98
-msgid "Static Background Color"
-msgstr ""
-
-#: ../includes/design/background.php:99
-msgid "Static Background Image"
-msgstr ""
-
-#: ../includes/design/background.php:100
+#: ../includes/design/background.php:109
 msgid "Background SlideShow"
 msgstr ""
 
-#: ../includes/design/background.php:101
-msgid "Full-Screen YouTube Background"
+#: ../includes/design/background.php:158
+msgid "Preview"
 msgstr ""
 
-#: ../includes/design/background.php:228
+#: ../includes/design/background.php:192
 msgid "Cover or Strech"
 msgstr ""
 
-#: ../includes/design/background.php:292
+#: ../includes/design/background.php:257
 msgid "Background Attachment"
 msgstr ""
 
-#: ../includes/design/background.php:298
+#: ../includes/design/background.php:263
 msgid "Fixed"
 msgstr ""
 
-#: ../includes/design/background.php:299
+#: ../includes/design/background.php:264
 msgid "Scroll"
 msgstr ""
 
-#: ../includes/design/background.php:300
+#: ../includes/design/background.php:265
 msgid "Inherit"
 msgstr ""
 
-#: ../includes/design/background.php:318 ../includes/design/background.php:340
+#: ../includes/design/background.php:284 ../includes/design/background.php:306
 msgid "No. Of Background Slideshow"
 msgstr ""
 
-#: ../includes/design/background.php:324
+#: ../includes/design/background.php:290
 msgid "Select Number of Slide Show"
 msgstr ""
 
-#: ../includes/design/background.php:325
+#: ../includes/design/background.php:291
 msgid "2"
 msgstr ""
 
-#: ../includes/design/background.php:326
+#: ../includes/design/background.php:292
 msgid "3"
 msgstr ""
 
-#: ../includes/design/background.php:327
+#: ../includes/design/background.php:293
 msgid "4"
 msgstr ""
 
-#: ../includes/design/background.php:328
+#: ../includes/design/background.php:294
 msgid "5"
 msgstr ""
 
-#: ../includes/design/background.php:329
+#: ../includes/design/background.php:295
 msgid "6"
 msgstr ""
 
-#: ../includes/design/background.php:371
+#: ../includes/design/background.php:336
 msgid "Slider Animation"
 msgstr ""
 
-#: ../includes/design/background.php:378
+#: ../includes/design/background.php:343
 msgid "Slider Animation 1"
 msgstr ""
 
-#: ../includes/design/background.php:379
+#: ../includes/design/background.php:344
 msgid "Slider Animation 2"
 msgstr ""
 
-#: ../includes/design/background.php:380
+#: ../includes/design/background.php:345
 msgid "Slider Animation 3"
 msgstr ""
 
-#: ../includes/design/background.php:381
+#: ../includes/design/background.php:346
 msgid "Slider Animation 4"
 msgstr ""
 
-#: ../includes/design/background.php:399
-msgid "Youtube Video Url"
-msgstr ""
-
-#: ../includes/design/background.php:404
-msgid "Top video url"
-msgstr ""
-
-#: ../includes/design/background.php:422
+#: ../includes/design/background.php:365 ../includes/design/background.php:380
 msgid "Top Background "
 msgstr ""
 
-#: ../includes/design/text_and_color.php:136
+#: ../includes/design/text_and_color.php:131
 msgid "Text And Color Settings"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:149
+#: ../includes/design/text_and_color.php:144
 msgid "Headline Font Color"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:165
+#: ../includes/design/text_and_color.php:160
 msgid "Input Font Color"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:181
+#: ../includes/design/text_and_color.php:176
 msgid "Link Color"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:197
+#: ../includes/design/text_and_color.php:192
 msgid "Button Color"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:213
+#: ../includes/design/text_and_color.php:208
 msgid "Headline Font size"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:231
+#: ../includes/design/text_and_color.php:226
 msgid "Input Font Size"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:249
+#: ../includes/design/text_and_color.php:244
 msgid "Link Font Size"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:267
+#: ../includes/design/text_and_color.php:262
 msgid "Button Font Size"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:285
+#: ../includes/design/text_and_color.php:280
 msgid "Enable Link shadow?"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:306
+#: ../includes/design/text_and_color.php:301
 msgid "Link Shadow Color"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:322
+#: ../includes/design/text_and_color.php:317
 msgid "Headline Font Style"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:884
+#: ../includes/design/text_and_color.php:879
 msgid "Input Font Style"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:1446
+#: ../includes/design/text_and_color.php:1441
 msgid "Link Font Style"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:2009
+#: ../includes/design/text_and_color.php:2004
 msgid "Button Font Style"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:2572
+#: ../includes/design/text_and_color.php:2567
 msgid "Enable Input Box Icon?"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:2593
+#: ../includes/design/text_and_color.php:2587
 msgid "Icon For user Input Box"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:2598
-msgid "fa fa-user"
-msgstr ""
-
-#: ../includes/design/text_and_color.php:2609
+#: ../includes/design/text_and_color.php:2608
 msgid "Icon For Password Input Box"
 msgstr ""
 
-#: ../includes/design/text_and_color.php:2614
-msgid "fa fa-key"
-msgstr ""
-
-#: ../includes/design/text_and_color.php:2631
+#: ../includes/design/text_and_color.php:2636
+#: ../includes/design/text_and_color.php:2651
 msgid "Text and Color "
 msgstr ""
 
-#: ../includes/settings/page-settings.php:55
+#: ../includes/settings/page-settings.php:53
 msgid "Logo"
 msgstr ""
 
-#: ../includes/settings/page-settings.php:72
+#: ../includes/settings/page-settings.php:70
 msgid "Logo Width"
 msgstr ""
 
-#: ../includes/settings/page-settings.php:89
+#: ../includes/settings/page-settings.php:87
 msgid "Logo Height"
 msgstr ""
 
-#: ../includes/settings/page-settings.php:106
-#: ../includes/settings/page-settings.php:111
+#: ../includes/settings/page-settings.php:104
+#: ../includes/settings/page-settings.php:109
 msgid "Logo URL"
 msgstr ""
 
-#: ../includes/settings/page-settings.php:121
-#: ../includes/settings/page-settings.php:126
+#: ../includes/settings/page-settings.php:119
+#: ../includes/settings/page-settings.php:124
 msgid "Logo URL Title"
 msgstr ""
 
-#: ../includes/settings/page-settings.php:142
+#: ../includes/settings/page-settings.php:140
+#: ../includes/settings/page-settings.php:154
 msgid "Logo "
 msgstr ""
 
-#: ../includes/social/social.php:30
+#: ../includes/social/social.php:29
 msgid "Enable Social Icons"
 msgstr ""
 
-#: ../includes/social/social.php:36
+#: ../includes/social/social.php:35
 msgid "No Icon"
 msgstr ""
 
-#: ../includes/social/social.php:37
+#: ../includes/social/social.php:36
 msgid "Inner"
 msgstr ""
 
-#: ../includes/social/social.php:38
+#: ../includes/social/social.php:37
 msgid "Outer"
 msgstr ""
 
-#: ../includes/social/social.php:39
+#: ../includes/social/social.php:38
 msgid "Both"
 msgstr ""
 
-#: ../includes/social/social.php:50
+#: ../includes/social/social.php:49
 msgid "Social Media Icon Size"
 msgstr ""
 
-#: ../includes/social/social.php:56
+#: ../includes/social/social.php:55
 msgid "Small"
 msgstr ""
 
-#: ../includes/social/social.php:59
+#: ../includes/social/social.php:58
 msgid "Medium"
 msgstr ""
 
-#: ../includes/social/social.php:62
+#: ../includes/social/social.php:61
 msgid "Large"
 msgstr ""
 
-#: ../includes/social/social.php:73
+#: ../includes/social/social.php:72
 msgid "Social Media Icon Layout"
 msgstr ""
 
-#: ../includes/social/social.php:79
+#: ../includes/social/social.php:78
 msgid "Rectangle"
 msgstr ""
 
-#: ../includes/social/social.php:82
+#: ../includes/social/social.php:81
 msgid "Circle"
 msgstr ""
 
-#: ../includes/social/social.php:93
+#: ../includes/social/social.php:92
 msgid "Social Media Icon Color"
 msgstr ""
 
-#: ../includes/social/social.php:108
+#: ../includes/social/social.php:107
 msgid "Social Media Icon Color On Hover"
 msgstr ""
 
-#: ../includes/social/social.php:123
+#: ../includes/social/social.php:122
 msgid "Social Media Icon Background Color"
 msgstr ""
 
-#: ../includes/social/social.php:138
+#: ../includes/social/social.php:137
 msgid "Social Media Background Color On Hover"
 msgstr ""
 
-#: ../includes/social/social.php:153
+#: ../includes/social/social.php:152
 msgid "Social Profiles"
 msgstr ""
 
-#: ../includes/social/social.php:158
+#: ../includes/social/social.php:157
 msgid "Enter your social profiles complete url here"
 msgstr ""
 
-#: ../includes/social/social.php:160
+#: ../includes/social/social.php:159
 msgid "Facebook"
 msgstr ""
 
-#: ../includes/social/social.php:161
+#: ../includes/social/social.php:160
 msgid "Twitter"
 msgstr ""
 
-#: ../includes/social/social.php:162
+#: ../includes/social/social.php:161
 msgid "Linkedin"
 msgstr ""
 
-#: ../includes/social/social.php:163
+#: ../includes/social/social.php:162
 msgid "google plus"
 msgstr ""
 
-#: ../includes/social/social.php:164
+#: ../includes/social/social.php:163
 msgid "Pinterest"
 msgstr ""
 
-#: ../includes/social/social.php:181
+#: ../includes/social/social.php:180 ../includes/social/social.php:194
 msgid "Social "
 msgstr ""

@@ -15,7 +15,6 @@
 	global $top_slideshow_no ;
 	$top_slideshow_no = $top_page['top_slideshow_no'];
 	$top_bg_slider_animation = $top_page['top_bg_slider_animation'];
-	$top_video_url = $top_page['top_video_url'];
 
 	// Get value of Login page
 	$login_page = unserialize(get_option('Admin_custome_login_login'));

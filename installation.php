@@ -21,8 +21,7 @@ if($Version != '1.0' || $Version == ""){
 		'top_position' => 'left top',
 		'top_attachment' => 'fixed',
 		'top_slideshow_no' => '6',
-		'top_bg_slider_animation' => 'slider-style1',
-		'top_video_url' => ''
+		'top_bg_slider_animation' => 'slider-style1'		
 	));
 	add_option("Admin_custome_login_top", $top_page);
 	$login_page= serialize(array(
@@ -59,8 +58,8 @@ if($Version != '1.0' || $Version == ""){
 		'link_font_style'=>'Arial',
 		'button_font_style'=>'Arial',
 		'enable_inputbox_icon'=>'yes',
-		'user_input_icon'=>'fa fa-user',
-		'password_input_icon'=>'fa fa-key'
+		'user_input_icon'=>'fa-user',
+		'password_input_icon'=>'fa-key'
 	));
 	add_option("Admin_custome_login_text", $text_and_color_page);
 	$logo_page= serialize(array(

@@ -2826,8 +2826,8 @@ function Custom_login_text(Action, id){
 				jQuery( "#button-size-slider7" ).slider("value",14 );
 				jQuery( "#button-size-text-box" ).val( jQuery( "#button-size-slider7" ).slider( "value") );
 				
-				document.getElementById("user-input-icon").value ='fa fa-user';
-				document.getElementById("password-input-icon").value ='fa fa-key';
+				document.getElementById("user-input-icon").value ='fa-user';
+				document.getElementById("password-input-icon").value ='fa-key';
 				// Reset message box open
 				jQuery(".dialog-button9").click();
 				// Function to close message box
@@ -2902,8 +2902,8 @@ if(isset($_POST['Action'])) {
 			'link_font_style'=>'Arial',
 			'button_font_style'=>'Arial',
 			'enable_inputbox_icon'=>'yes',
-			'user_input_icon'=>'fa fa-user',
-			'password_input_icon'=>'fa fa-key'
+			'user_input_icon'=>'fa-user',
+			'password_input_icon'=>'fa-key'
 		));
 		update_option('Admin_custome_login_text', $text_and_color_page);
 	}

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: admin-custome-login\n"
-"POT-Creation-Date: 2015-03-20 14:34+0530\n"
-"PO-Revision-Date: 2015-03-20 14:36+0530\n"
+"POT-Creation-Date: 2015-04-07 10:44+0530\n"
+"PO-Revision-Date: 2015-04-07 10:44+0530\n"
 "Last-Translator: Weblizar <lizarweb@gmail.com>\n"
 "Language-Team: \n"
 "Language: hi_IN\n"
@@ -17,278 +17,299 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 "X-Poedit-SearchPath-1: .*\n"
 
-#: ../js/jquery-ui.js:8
-msgid "'"
-msgstr ""
-
-#: ../includes/Login-form-setting/Login-form-background.php:146
+#: ../includes/Login-form-setting/Login-form-background.php:155
 msgid "Login Settings"
 msgstr "लॉगिन सेटिंग्स"
 
-#: ../includes/Login-form-setting/Login-form-background.php:158
+#: ../includes/Login-form-setting/Login-form-background.php:168
 msgid "Login from Floating"
 msgstr "फ्लोटिंग से लॉगिन"
 
-#: ../includes/Login-form-setting/Login-form-background.php:164
+#: ../includes/Login-form-setting/Login-form-background.php:174
 msgid "Left"
 msgstr "बाया"
 
-#: ../includes/Login-form-setting/Login-form-background.php:167
+#: ../includes/Login-form-setting/Login-form-background.php:177
 msgid "Center"
 msgstr "केंद्र"
 
-#: ../includes/Login-form-setting/Login-form-background.php:170
+#: ../includes/Login-form-setting/Login-form-background.php:180
 msgid "Right"
 msgstr "दाया"
 
-#: ../includes/Login-form-setting/Login-form-background.php:184
-#: ../includes/design/background.php:119
+#: ../includes/Login-form-setting/Login-form-background.php:191
+#: ../includes/design/background.php:99
+msgid "Select Background"
+msgstr "पृष्ठभूमि चयन करें"
+
+#: ../includes/Login-form-setting/Login-form-background.php:197
+#: ../includes/design/background.php:106
+msgid "Select background"
+msgstr "चयन करें पृष्ठभूमि"
+
+#: ../includes/Login-form-setting/Login-form-background.php:198
+#: ../includes/design/background.php:107
+msgid "Static Background Color"
+msgstr "स्थिर पृष्ठभूमि का रंग"
+
+#: ../includes/Login-form-setting/Login-form-background.php:199
+#: ../includes/design/background.php:108
+msgid "Static Background Image"
+msgstr "स्थिर पृष्ठभूमि छवि"
+
+#: ../includes/Login-form-setting/Login-form-background.php:215
+#: ../includes/design/background.php:127
 msgid "Background Color"
 msgstr "पृष्ठभूमि का रंग"
 
-#: ../includes/Login-form-setting/Login-form-background.php:199
-msgid "Login Form Opacity"
-msgstr "पर्चा अपारदर्शिता लॉगिन"
-
-#: ../includes/Login-form-setting/Login-form-background.php:216
-#: ../includes/design/background.php:135
-msgid "Background Noise"
-msgstr "पृष्ठभूमि शोर"
-
-#: ../includes/Login-form-setting/Login-form-background.php:222
-#: ../includes/Login-form-setting/Login-form-background.php:341
-#: ../includes/design/background.php:141
-msgid "None"
-msgstr "नहीं"
-
-#: ../includes/Login-form-setting/Login-form-background.php:225
-#: ../includes/design/background.php:144
-msgid "Noise"
-msgstr "शोर"
-
-#: ../includes/Login-form-setting/Login-form-background.php:236
-#: ../includes/design/background.php:156
-msgid "Background Effect"
-msgstr "पृष्ठभूमि प्रभाव"
-
-#: ../includes/Login-form-setting/Login-form-background.php:242
-msgid "Select overlay effect"
-msgstr "ओवरले प्रभाव का चयन करें"
-
-#: ../includes/Login-form-setting/Login-form-background.php:243
-msgid "No Overlay Effect"
-msgstr "कोई ओवरले प्रभाव नहीं"
-
-#: ../includes/Login-form-setting/Login-form-background.php:244
-#: ../includes/Login-form-setting/Login-form-background.php:245
-#: ../includes/Login-form-setting/Login-form-background.php:246
-#: ../includes/design/background.php:163 ../includes/design/background.php:164
-#: ../includes/design/background.php:165 ../includes/design/background.php:166
-msgid "Overlay Effect"
-msgstr "ओवरले प्रभाव"
-
-#: ../includes/Login-form-setting/Login-form-background.php:261
-#: ../includes/design/background.php:185 ../includes/design/background.php:204
+#: ../includes/Login-form-setting/Login-form-background.php:235
+#: ../includes/design/background.php:149 ../includes/design/background.php:168
 msgid "Background Image"
 msgstr "पृष्ठभूमि छवि"
 
-#: ../includes/Login-form-setting/Login-form-background.php:266
-#: ../includes/design/background.php:190
-#: ../includes/settings/page-settings.php:60
+#: ../includes/Login-form-setting/Login-form-background.php:240
+#: ../includes/design/background.php:154
+#: ../includes/settings/page-settings.php:58
 msgid "No media selected!"
 msgstr "कोई मीडिया चयनित नहीं"
 
-#: ../includes/Login-form-setting/Login-form-background.php:267
-#: ../includes/design/background.php:192
-#: ../includes/settings/page-settings.php:61
+#: ../includes/Login-form-setting/Login-form-background.php:241
+#: ../includes/design/background.php:156
+#: ../includes/settings/page-settings.php:59
 msgid "Upload"
 msgstr "अपलोड"
 
-#: ../includes/Login-form-setting/Login-form-background.php:269
-#: ../includes/design/background.php:194
-#: ../includes/settings/page-settings.php:62
+#: ../includes/Login-form-setting/Login-form-background.php:243
+#: ../includes/settings/page-settings.php:60
 msgid "preview"
 msgstr "पूर्व दर्शन"
 
-#: ../includes/Login-form-setting/Login-form-background.php:271
-#: ../includes/design/background.php:196
+#: ../includes/Login-form-setting/Login-form-background.php:245
+#: ../includes/design/background.php:160
 msgid "Remove"
 msgstr "हटाए"
 
-#: ../includes/Login-form-setting/Login-form-background.php:279
+#: ../includes/Login-form-setting/Login-form-background.php:253
 msgid "Login Background Image"
 msgstr "लॉगिन पृष्ठभूमि छवि"
 
-#: ../includes/Login-form-setting/Login-form-background.php:285
-#: ../includes/Login-form-setting/Login-form-background.php:474
+#: ../includes/Login-form-setting/Login-form-background.php:259
+#: ../includes/Login-form-setting/Login-form-background.php:487
+#: ../includes/Login-form-setting/Login-form-background.php:501
 #: ../includes/dashboard/dashboard.php:64
-#: ../includes/design/background.php:212 ../includes/design/background.php:422
-#: ../includes/design/text_and_color.php:2631
-#: ../includes/settings/page-settings.php:142
-#: ../includes/social/social.php:181
+#: ../includes/dashboard/dashboard.php:78
+#: ../includes/design/background.php:176 ../includes/design/background.php:365
+#: ../includes/design/background.php:380
+#: ../includes/design/text_and_color.php:2636
+#: ../includes/design/text_and_color.php:2651
+#: ../includes/settings/page-settings.php:140
+#: ../includes/settings/page-settings.php:154
+#: ../includes/social/social.php:180 ../includes/social/social.php:194
 msgid "Close"
 msgstr "बंद"
 
-#: ../includes/Login-form-setting/Login-form-background.php:300
-msgid "Login Form Width"
-msgstr "लॉगिन"
-
-#: ../includes/Login-form-setting/Login-form-background.php:318
-msgid "Border Radius"
-msgstr "सीमा त्रिज्या"
-
-#: ../includes/Login-form-setting/Login-form-background.php:335
-msgid "Border Style"
-msgstr "झालर की शैली"
-
-#: ../includes/Login-form-setting/Login-form-background.php:342
-msgid "Solid"
-msgstr "ठोस"
-
-#: ../includes/Login-form-setting/Login-form-background.php:343
-msgid "Dotted"
-msgstr "बिंदुओं से अंकित"
-
-#: ../includes/Login-form-setting/Login-form-background.php:344
-msgid "Dashed"
-msgstr "मिश्रण"
-
-#: ../includes/Login-form-setting/Login-form-background.php:345
-msgid "Double"
-msgstr "दोहरा"
-
-#: ../includes/Login-form-setting/Login-form-background.php:356
-msgid "Border Thickness"
-msgstr "सीमा की मोटाई"
-
-#: ../includes/Login-form-setting/Login-form-background.php:373
-msgid "Border Color"
-msgstr "सीमा रंग"
-
-#: ../includes/Login-form-setting/Login-form-background.php:388
-#: ../includes/design/background.php:244
+#: ../includes/Login-form-setting/Login-form-background.php:274
+#: ../includes/design/background.php:209
 msgid "Background Repeat"
 msgstr "पृष्ठभूमि दोहरान"
 
-#: ../includes/Login-form-setting/Login-form-background.php:394
-#: ../includes/design/background.php:251
+#: ../includes/Login-form-setting/Login-form-background.php:280
+#: ../includes/design/background.php:216
 msgid "No Repeat "
 msgstr "दोहरान नहीं"
 
-#: ../includes/Login-form-setting/Login-form-background.php:395
-#: ../includes/design/background.php:252
+#: ../includes/Login-form-setting/Login-form-background.php:281
+#: ../includes/design/background.php:217
 msgid "Repeat"
 msgstr "दोहरान"
 
-#: ../includes/Login-form-setting/Login-form-background.php:396
-#: ../includes/design/background.php:253
+#: ../includes/Login-form-setting/Login-form-background.php:282
+#: ../includes/design/background.php:218
 msgid "Repeat Horizontally"
 msgstr "क्षैतिज दोहराएँ"
 
-#: ../includes/Login-form-setting/Login-form-background.php:397
-#: ../includes/design/background.php:254
+#: ../includes/Login-form-setting/Login-form-background.php:283
+#: ../includes/design/background.php:219
 msgid "Repeat Vertically"
 msgstr "लंबवत दोहराएँ"
 
-#: ../includes/Login-form-setting/Login-form-background.php:408
-#: ../includes/design/background.php:266
+#: ../includes/Login-form-setting/Login-form-background.php:294
+#: ../includes/design/background.php:231
 msgid "Background Position "
 msgstr "पृष्ठभूमि स्थिति"
 
-#: ../includes/Login-form-setting/Login-form-background.php:414
-#: ../includes/design/background.php:272
+#: ../includes/Login-form-setting/Login-form-background.php:300
+#: ../includes/design/background.php:237
 msgid "Left Top"
 msgstr "बाएँ शीर्ष"
 
-#: ../includes/Login-form-setting/Login-form-background.php:415
-#: ../includes/design/background.php:273
+#: ../includes/Login-form-setting/Login-form-background.php:301
+#: ../includes/design/background.php:238
 msgid "Left Center"
 msgstr "बायां केंद्र"
 
-#: ../includes/Login-form-setting/Login-form-background.php:416
-#: ../includes/design/background.php:274
+#: ../includes/Login-form-setting/Login-form-background.php:302
+#: ../includes/design/background.php:239
 msgid "Left Bottom"
 msgstr "बायां नीचे"
 
-#: ../includes/Login-form-setting/Login-form-background.php:417
-#: ../includes/design/background.php:275
+#: ../includes/Login-form-setting/Login-form-background.php:303
+#: ../includes/design/background.php:240
 msgid "Right Top"
 msgstr "दांया शीर्ष"
 
-#: ../includes/Login-form-setting/Login-form-background.php:418
-#: ../includes/design/background.php:276
+#: ../includes/Login-form-setting/Login-form-background.php:304
+#: ../includes/design/background.php:241
 msgid "Right Center"
 msgstr "दायें केंद्र"
 
-#: ../includes/Login-form-setting/Login-form-background.php:419
-#: ../includes/design/background.php:277
+#: ../includes/Login-form-setting/Login-form-background.php:305
+#: ../includes/design/background.php:242
 msgid "Right Bottom"
 msgstr "दांया नीचे"
 
-#: ../includes/Login-form-setting/Login-form-background.php:420
-#: ../includes/design/background.php:278
+#: ../includes/Login-form-setting/Login-form-background.php:306
+#: ../includes/design/background.php:243
 msgid "Center Top"
 msgstr "केंद्र शीर्ष"
 
-#: ../includes/Login-form-setting/Login-form-background.php:421
-#: ../includes/design/background.php:279
+#: ../includes/Login-form-setting/Login-form-background.php:307
+#: ../includes/design/background.php:244
 msgid "Center Center"
 msgstr "केंद्र"
 
-#: ../includes/Login-form-setting/Login-form-background.php:422
-#: ../includes/design/background.php:280
+#: ../includes/Login-form-setting/Login-form-background.php:308
+#: ../includes/design/background.php:245
 msgid "Center Bottom"
 msgstr "केंद्र निचला"
 
-#: ../includes/Login-form-setting/Login-form-background.php:433
+#: ../includes/Login-form-setting/Login-form-background.php:320
+msgid "Background Effect"
+msgstr "पृष्ठभूमि प्रभाव"
+
+#: ../includes/Login-form-setting/Login-form-background.php:326
+msgid "Select overlay effect"
+msgstr "ओवरले प्रभाव का चयन करें"
+
+#: ../includes/Login-form-setting/Login-form-background.php:327
+msgid "No Overlay Effect"
+msgstr "कोई ओवरले प्रभाव नहीं"
+
+#: ../includes/Login-form-setting/Login-form-background.php:328
+msgid "Overlay Effect 1"
+msgstr "ओवरले प्रभाव 1"
+
+#: ../includes/Login-form-setting/Login-form-background.php:329
+msgid "Overlay Effect 2"
+msgstr "ओवरले प्रभाव 2"
+
+#: ../includes/Login-form-setting/Login-form-background.php:330
+msgid "Overlay Effect 3"
+msgstr "ओवरले प्रभाव 3"
+
+#: ../includes/Login-form-setting/Login-form-background.php:342
+msgid "Login Form Opacity"
+msgstr "पर्चा अपारदर्शिता लॉगिन"
+
+#: ../includes/Login-form-setting/Login-form-background.php:359
+msgid "Login Form Width"
+msgstr "लॉगिन"
+
+#: ../includes/Login-form-setting/Login-form-background.php:376
+msgid "Border Color"
+msgstr "सीमा रंग"
+
+#: ../includes/Login-form-setting/Login-form-background.php:391
+msgid "Border Radius"
+msgstr "सीमा त्रिज्या"
+
+#: ../includes/Login-form-setting/Login-form-background.php:408
+msgid "Border Style"
+msgstr "झालर की शैली"
+
+#: ../includes/Login-form-setting/Login-form-background.php:414
+msgid "None"
+msgstr "नहीं"
+
+#: ../includes/Login-form-setting/Login-form-background.php:415
+msgid "Solid"
+msgstr "ठोस"
+
+#: ../includes/Login-form-setting/Login-form-background.php:416
+msgid "Dotted"
+msgstr "बिंदुओं से अंकित"
+
+#: ../includes/Login-form-setting/Login-form-background.php:417
+msgid "Dashed"
+msgstr "मिश्रण"
+
+#: ../includes/Login-form-setting/Login-form-background.php:418
+msgid "Double"
+msgstr "दोहरा"
+
+#: ../includes/Login-form-setting/Login-form-background.php:429
+msgid "Border Thickness"
+msgstr "सीमा की मोटाई"
+
+#: ../includes/Login-form-setting/Login-form-background.php:446
 msgid "Enable form shadow?"
 msgstr "फार्म छाया सक्षम करें?"
 
-#: ../includes/Login-form-setting/Login-form-background.php:439
-#: ../includes/design/background.php:233
-#: ../includes/design/text_and_color.php:291
-#: ../includes/design/text_and_color.php:2578
+#: ../includes/Login-form-setting/Login-form-background.php:452
+#: ../includes/design/background.php:197
+#: ../includes/design/text_and_color.php:286
+#: ../includes/design/text_and_color.php:2573
 msgid "Yes"
 msgstr "हाँ"
 
-#: ../includes/Login-form-setting/Login-form-background.php:442
-#: ../includes/design/text_and_color.php:294
-#: ../includes/design/text_and_color.php:2581
+#: ../includes/Login-form-setting/Login-form-background.php:455
+#: ../includes/design/text_and_color.php:289
+#: ../includes/design/text_and_color.php:2576
 msgid "No"
 msgstr "नहीं"
 
-#: ../includes/Login-form-setting/Login-form-background.php:453
+#: ../includes/Login-form-setting/Login-form-background.php:466
 msgid "Form Shadow Color"
 msgstr "छाया रंग रूप"
 
-#: ../includes/Login-form-setting/Login-form-background.php:474
+#: ../includes/Login-form-setting/Login-form-background.php:487
+#: ../includes/Login-form-setting/Login-form-background.php:501
 msgid "Login "
 msgstr "लॉगिन"
 
-#: ../includes/Login-form-setting/Login-form-background.php:474
+#: ../includes/Login-form-setting/Login-form-background.php:487
 #: ../includes/dashboard/dashboard.php:64
-#: ../includes/design/background.php:422
-#: ../includes/design/text_and_color.php:2631
-#: ../includes/settings/page-settings.php:142
-#: ../includes/social/social.php:181
+#: ../includes/design/background.php:365
+#: ../includes/design/text_and_color.php:2636
+#: ../includes/settings/page-settings.php:140
+#: ../includes/social/social.php:180
 msgid "Setting Save Successfully"
 msgstr "सफलतापूर्वक सहेजें स्थापना"
 
-#: ../includes/Login-form-setting/Login-form-background.php:481
-#: ../includes/dashboard/dashboard.php:71
-#: ../includes/design/background.php:430
-#: ../includes/design/text_and_color.php:2639
-#: ../includes/settings/page-settings.php:149
-#: ../includes/social/social.php:188
+#: ../includes/Login-form-setting/Login-form-background.php:501
+#: ../includes/dashboard/dashboard.php:78
+#: ../includes/design/background.php:380
+#: ../includes/design/text_and_color.php:2651
+#: ../includes/settings/page-settings.php:154
+#: ../includes/social/social.php:194
+msgid "Setting Reset Successfully"
+msgstr "सफलतापूर्वक सहेजें स्थापना"
+
+#: ../includes/Login-form-setting/Login-form-background.php:508
+#: ../includes/dashboard/dashboard.php:85
+#: ../includes/design/background.php:388
+#: ../includes/design/text_and_color.php:2659
+#: ../includes/settings/page-settings.php:161
+#: ../includes/social/social.php:201
 msgid "Save Changes"
 msgstr "परिवर्तनों को सुरक्षित करें"
 
-#: ../includes/Login-form-setting/Login-form-background.php:484
-#: ../includes/dashboard/dashboard.php:74
-#: ../includes/design/background.php:433
-#: ../includes/design/text_and_color.php:2642
-#: ../includes/settings/page-settings.php:152
-#: ../includes/social/social.php:191
+#: ../includes/Login-form-setting/Login-form-background.php:511
+#: ../includes/dashboard/dashboard.php:88
+#: ../includes/design/background.php:391
+#: ../includes/design/text_and_color.php:2662
+#: ../includes/settings/page-settings.php:164
+#: ../includes/social/social.php:204
 msgid "Reset Default"
 msgstr "पुनः तैयार करना"
 
@@ -296,59 +317,63 @@ msgstr "पुनः तैयार करना"
 msgid "Admin Custom Login"
 msgstr "व्यवस्थापक कस्टम लॉगिन"
 
-#: ../includes/content.php:103
+#: ../includes/content.php:70
+msgid "  Login Preview"
+msgstr "लॉगिन पूर्वावलोकन"
+
+#: ../includes/content.php:98
 msgid "Powered By"
 msgstr "द्वारा संचालित"
 
-#: ../includes/content.php:105
+#: ../includes/content.php:100
 msgid "Weblizar"
 msgstr "वेब्लिज़र"
 
-#: ../includes/content.php:114
+#: ../includes/content.php:109
 msgid "Dashboard"
 msgstr "डैशबोर्ड"
 
-#: ../includes/content.php:115
+#: ../includes/content.php:110
 msgid "Application overview"
 msgstr "आवेदन सिंहावलोकन"
 
-#: ../includes/content.php:124
+#: ../includes/content.php:119
 msgid "Background Design"
 msgstr "पृष्ठभूमि डिजाइन"
 
-#: ../includes/content.php:125
+#: ../includes/content.php:120
 msgid "Modify Background design here"
 msgstr "यहाँ पृष्ठभूमि डिजाइन सुधारे"
 
-#: ../includes/content.php:135
+#: ../includes/content.php:130
 msgid "Login form Setting"
 msgstr "प्रवेश फार्म की स्थापना"
 
-#: ../includes/content.php:136
+#: ../includes/content.php:131
 msgid "Modify Login design here"
 msgstr "यहां लॉग इन डिजाइन सुधारे"
 
-#: ../includes/content.php:146
+#: ../includes/content.php:141
 msgid "Font Setting"
 msgstr "फ़ॉन्ट सेटिंग"
 
-#: ../includes/content.php:147
+#: ../includes/content.php:142
 msgid "Modify Login Form Style here"
 msgstr "यहां लॉगिन फार्म शैली सुधारे"
 
-#: ../includes/content.php:157 ../includes/settings/page-settings.php:43
+#: ../includes/content.php:152 ../includes/settings/page-settings.php:41
 msgid "Logo Settings"
 msgstr "लोगो सेटिंग्स"
 
-#: ../includes/content.php:158
+#: ../includes/content.php:153
 msgid "Customize Logo Settings here"
 msgstr "यहाँ लोगो सेटिंग्स को अनुकूलित"
 
-#: ../includes/content.php:169 ../includes/social/social.php:18
+#: ../includes/content.php:164 ../includes/social/social.php:17
 msgid "Social Settings"
 msgstr "सामाजिक व्यवस्था"
 
-#: ../includes/content.php:170
+#: ../includes/content.php:165
 msgid "Connect with your social profile"
 msgstr "अपने सामाजिक प्रोफाइल के साथ कनेक्ट"
 
@@ -377,326 +402,315 @@ msgid "Open Your WP Login Page in a New Tab"
 msgstr "एक नए टैब में अपने WP लॉगिन पृष्ठ खोलें"
 
 #: ../includes/dashboard/dashboard.php:64
+#: ../includes/dashboard/dashboard.php:78
 msgid "Dashboard "
 msgstr "डैशबोर्ड"
 
-#: ../includes/design/background.php:78
+#: ../includes/design/background.php:87
 msgid "Background Settings"
 msgstr "पृष्ठभूमि सेटिंग"
 
-#: ../includes/design/background.php:90
-msgid "Select Background"
-msgstr "पृष्ठभूमि चयन करें"
-
-#: ../includes/design/background.php:96
+#: ../includes/design/background.php:105
 msgid "No background Selected"
 msgstr "कोई चयनित पृष्ठभूमि नहीं"
 
-#: ../includes/design/background.php:97
-msgid "Select background"
-msgstr "चयन करें पृष्ठभूमि"
-
-#: ../includes/design/background.php:98
-msgid "Static Background Color"
-msgstr "स्थिर पृष्ठभूमि का रंग"
-
-#: ../includes/design/background.php:99
-msgid "Static Background Image"
-msgstr "स्थिर पृष्ठभूमि छवि"
-
-#: ../includes/design/background.php:100
+#: ../includes/design/background.php:109
 msgid "Background SlideShow"
 msgstr "पृष्ठभूमि स्लाइड शो"
 
-#: ../includes/design/background.php:101
-msgid "Full-Screen YouTube Background"
-msgstr "पूर्ण स्क्रीन यूट्यूब पृष्ठभूमि"
+#: ../includes/design/background.php:158
+msgid "Preview"
+msgstr "पूर्वावलोकन"
 
-#: ../includes/design/background.php:228
+#: ../includes/design/background.php:192
 msgid "Cover or Strech"
 msgstr "आवरण"
 
-#: ../includes/design/background.php:292
+#: ../includes/design/background.php:257
 msgid "Background Attachment"
 msgstr "पृष्ठभूमि संलग्न"
 
-#: ../includes/design/background.php:298
+#: ../includes/design/background.php:263
 msgid "Fixed"
 msgstr "स्थिर"
 
-#: ../includes/design/background.php:299
+#: ../includes/design/background.php:264
 msgid "Scroll"
 msgstr "लपेटा हुआ"
 
-#: ../includes/design/background.php:300
+#: ../includes/design/background.php:265
 msgid "Inherit"
 msgstr "विरासत में पाना"
 
-#: ../includes/design/background.php:318 ../includes/design/background.php:340
+#: ../includes/design/background.php:284 ../includes/design/background.php:306
 msgid "No. Of Background Slideshow"
 msgstr "पृष्ठभूमि स्लाइड शो की संख्या"
 
-#: ../includes/design/background.php:324
+#: ../includes/design/background.php:290
 msgid "Select Number of Slide Show"
 msgstr "स्लाइड शो के नंबर का चयन"
 
-#: ../includes/design/background.php:325
+#: ../includes/design/background.php:291
 msgid "2"
 msgstr "2"
 
-#: ../includes/design/background.php:326
+#: ../includes/design/background.php:292
 msgid "3"
 msgstr "3"
 
-#: ../includes/design/background.php:327
+#: ../includes/design/background.php:293
 msgid "4"
 msgstr "4"
 
-#: ../includes/design/background.php:328
+#: ../includes/design/background.php:294
 msgid "5"
 msgstr "5"
 
-#: ../includes/design/background.php:329
+#: ../includes/design/background.php:295
 msgid "6"
 msgstr "6"
 
-#: ../includes/design/background.php:371
+#: ../includes/design/background.php:336
 msgid "Slider Animation"
 msgstr "स्लाइडर एनिमेशन"
 
-#: ../includes/design/background.php:378
+#: ../includes/design/background.php:343
 msgid "Slider Animation 1"
 msgstr "स्लाइडर एनिमेशन 1"
 
-#: ../includes/design/background.php:379
+#: ../includes/design/background.php:344
 msgid "Slider Animation 2"
 msgstr "स्लाइडर एनिमेशन 2"
 
-#: ../includes/design/background.php:380
+#: ../includes/design/background.php:345
 msgid "Slider Animation 3"
 msgstr "स्लाइडर एनिमेशन 3"
 
-#: ../includes/design/background.php:381
+#: ../includes/design/background.php:346
 msgid "Slider Animation 4"
 msgstr "स्लाइडर एनिमेशन 4"
 
-#: ../includes/design/background.php:399
-msgid "Youtube Video Url"
-msgstr "YouTube वीडियो URL"
-
-#: ../includes/design/background.php:404
-msgid "Top video url"
-msgstr "शीर्ष वीडियो URL"
-
-#: ../includes/design/background.php:422
+#: ../includes/design/background.php:365 ../includes/design/background.php:380
 msgid "Top Background "
 msgstr "पृष्ठभूमि का रंग"
 
-#: ../includes/design/text_and_color.php:136
+#: ../includes/design/text_and_color.php:131
 msgid "Text And Color Settings"
 msgstr "पाठ और रंग सेटिंग्स"
 
-#: ../includes/design/text_and_color.php:149
+#: ../includes/design/text_and_color.php:144
 msgid "Headline Font Color"
 msgstr "शीर्षक फ़ॉन्ट रंग"
 
-#: ../includes/design/text_and_color.php:165
+#: ../includes/design/text_and_color.php:160
 msgid "Input Font Color"
 msgstr "इनपुट फ़ॉन्ट रंग"
 
-#: ../includes/design/text_and_color.php:181
+#: ../includes/design/text_and_color.php:176
 msgid "Link Color"
 msgstr "लिंक रंग"
 
-#: ../includes/design/text_and_color.php:197
+#: ../includes/design/text_and_color.php:192
 msgid "Button Color"
 msgstr "बटन रंग"
 
-#: ../includes/design/text_and_color.php:213
+#: ../includes/design/text_and_color.php:208
 msgid "Headline Font size"
 msgstr "शीर्षक फ़ॉन्ट आकार"
 
-#: ../includes/design/text_and_color.php:231
+#: ../includes/design/text_and_color.php:226
 msgid "Input Font Size"
 msgstr "इनपुट फ़ॉन्ट का आकार"
 
-#: ../includes/design/text_and_color.php:249
+#: ../includes/design/text_and_color.php:244
 msgid "Link Font Size"
 msgstr "लिंक फ़ॉन्ट का आकार"
 
-#: ../includes/design/text_and_color.php:267
+#: ../includes/design/text_and_color.php:262
 msgid "Button Font Size"
 msgstr "बटन फ़ॉन्ट का आकार"
 
-#: ../includes/design/text_and_color.php:285
+#: ../includes/design/text_and_color.php:280
 msgid "Enable Link shadow?"
 msgstr "लिंक छाया सक्षम करें?"
 
-#: ../includes/design/text_and_color.php:306
+#: ../includes/design/text_and_color.php:301
 msgid "Link Shadow Color"
 msgstr "लिंक छाया रंग"
 
-#: ../includes/design/text_and_color.php:322
+#: ../includes/design/text_and_color.php:317
 msgid "Headline Font Style"
 msgstr "शीर्षक फ़ॉन्ट शैली"
 
-#: ../includes/design/text_and_color.php:884
+#: ../includes/design/text_and_color.php:879
 msgid "Input Font Style"
 msgstr "इनपुट फ़ॉन्ट शैली"
 
-#: ../includes/design/text_and_color.php:1446
+#: ../includes/design/text_and_color.php:1441
 msgid "Link Font Style"
 msgstr "लिंक फ़ॉन्ट शैली"
 
-#: ../includes/design/text_and_color.php:2009
+#: ../includes/design/text_and_color.php:2004
 msgid "Button Font Style"
 msgstr "बटन फ़ॉन्ट शैली"
 
-#: ../includes/design/text_and_color.php:2572
+#: ../includes/design/text_and_color.php:2567
 msgid "Enable Input Box Icon?"
 msgstr "इनपुट बॉक्स चिह्न सक्षम करें?"
 
-#: ../includes/design/text_and_color.php:2593
+#: ../includes/design/text_and_color.php:2587
 msgid "Icon For user Input Box"
 msgstr "उपयोगकर्ता इनपुट बॉक्स के लिए चिह्न"
 
-#: ../includes/design/text_and_color.php:2598
-msgid "fa fa-user"
-msgstr ""
-
-#: ../includes/design/text_and_color.php:2609
+#: ../includes/design/text_and_color.php:2608
 msgid "Icon For Password Input Box"
 msgstr "पासवर्ड इनपुट बॉक्स के लिए चिह्न"
 
-#: ../includes/design/text_and_color.php:2614
-msgid "fa fa-key"
-msgstr ""
-
-#: ../includes/design/text_and_color.php:2631
+#: ../includes/design/text_and_color.php:2636
+#: ../includes/design/text_and_color.php:2651
 msgid "Text and Color "
 msgstr "पाठ और रंग"
 
-#: ../includes/settings/page-settings.php:55
+#: ../includes/settings/page-settings.php:53
 msgid "Logo"
 msgstr "लोगो"
 
-#: ../includes/settings/page-settings.php:72
+#: ../includes/settings/page-settings.php:70
 msgid "Logo Width"
 msgstr "लोगो चौड़ाई"
 
-#: ../includes/settings/page-settings.php:89
+#: ../includes/settings/page-settings.php:87
 msgid "Logo Height"
 msgstr "लोगो ऊँचाई"
 
-#: ../includes/settings/page-settings.php:106
-#: ../includes/settings/page-settings.php:111
+#: ../includes/settings/page-settings.php:104
+#: ../includes/settings/page-settings.php:109
 msgid "Logo URL"
 msgstr "लोगो URL"
 
-#: ../includes/settings/page-settings.php:121
-#: ../includes/settings/page-settings.php:126
+#: ../includes/settings/page-settings.php:119
+#: ../includes/settings/page-settings.php:124
 msgid "Logo URL Title"
 msgstr "लोगो URL शीर्षक"
 
-#: ../includes/settings/page-settings.php:142
+#: ../includes/settings/page-settings.php:140
+#: ../includes/settings/page-settings.php:154
 msgid "Logo "
 msgstr "लोगो"
 
-#: ../includes/social/social.php:30
+#: ../includes/social/social.php:29
 msgid "Enable Social Icons"
 msgstr "सामाजिक आइकन सक्रिय"
 
-#: ../includes/social/social.php:36
+#: ../includes/social/social.php:35
 msgid "No Icon"
 msgstr "कोई चिह्न"
 
-#: ../includes/social/social.php:37
+#: ../includes/social/social.php:36
 msgid "Inner"
 msgstr "आंतरिक"
 
-#: ../includes/social/social.php:38
+#: ../includes/social/social.php:37
 msgid "Outer"
 msgstr "आउटर"
 
-#: ../includes/social/social.php:39
+#: ../includes/social/social.php:38
 msgid "Both"
 msgstr "दोनो"
 
-#: ../includes/social/social.php:50
+#: ../includes/social/social.php:49
 msgid "Social Media Icon Size"
 msgstr "सामाजिक मीडिया चिह्न का आकार"
 
-#: ../includes/social/social.php:56
+#: ../includes/social/social.php:55
 msgid "Small"
 msgstr "छोटा"
 
-#: ../includes/social/social.php:59
+#: ../includes/social/social.php:58
 msgid "Medium"
 msgstr "मध्यम"
 
-#: ../includes/social/social.php:62
+#: ../includes/social/social.php:61
 msgid "Large"
 msgstr "बडा"
 
-#: ../includes/social/social.php:73
+#: ../includes/social/social.php:72
 msgid "Social Media Icon Layout"
 msgstr "सामाजिक मीडिया चिह्न लेआउट"
 
-#: ../includes/social/social.php:79
+#: ../includes/social/social.php:78
 msgid "Rectangle"
 msgstr "आयत"
 
-#: ../includes/social/social.php:82
+#: ../includes/social/social.php:81
 msgid "Circle"
 msgstr "गोला"
 
-#: ../includes/social/social.php:93
+#: ../includes/social/social.php:92
 msgid "Social Media Icon Color"
 msgstr "सामाजिक मीडिया आइकन रंग"
 
-#: ../includes/social/social.php:108
+#: ../includes/social/social.php:107
 msgid "Social Media Icon Color On Hover"
 msgstr "सामाजिक मीडिया आइकन रंग हॉवर पर "
 
-#: ../includes/social/social.php:123
+#: ../includes/social/social.php:122
 msgid "Social Media Icon Background Color"
 msgstr "सामाजिक मीडिया चिह्न पृष्ठभूमि रंग"
 
-#: ../includes/social/social.php:138
+#: ../includes/social/social.php:137
 msgid "Social Media Background Color On Hover"
 msgstr "सामाजिक मीडिया पृष्ठभूमि रंग हॉवर पर"
 
-#: ../includes/social/social.php:153
+#: ../includes/social/social.php:152
 msgid "Social Profiles"
 msgstr "सामाजिक रूपरेखाएं"
 
-#: ../includes/social/social.php:158
+#: ../includes/social/social.php:157
 msgid "Enter your social profiles complete url here"
 msgstr "यहाँ अपने सामाजिक प्रोफाइल पूरा URL दर्ज करें"
 
-#: ../includes/social/social.php:160
+#: ../includes/social/social.php:159
 msgid "Facebook"
 msgstr "फेसबुक"
 
-#: ../includes/social/social.php:161
+#: ../includes/social/social.php:160
 msgid "Twitter"
 msgstr "ट्विटर"
 
-#: ../includes/social/social.php:162
+#: ../includes/social/social.php:161
 msgid "Linkedin"
 msgstr "लिंकेडीन"
 
-#: ../includes/social/social.php:163
+#: ../includes/social/social.php:162
 msgid "google plus"
 msgstr "गूगल  प्लस "
 
-#: ../includes/social/social.php:164
+#: ../includes/social/social.php:163
 msgid "Pinterest"
 msgstr "पिंट्रेस्ट "
 
-#: ../includes/social/social.php:181
+#: ../includes/social/social.php:180 ../includes/social/social.php:194
 msgid "Social "
 msgstr "सामाजिक"
+
+#~ msgid "Background Noise"
+#~ msgstr "पृष्ठभूमि शोर"
+
+#~ msgid "Noise"
+#~ msgstr "शोर"
+
+#~ msgid "Overlay Effect"
+#~ msgstr "ओवरले प्रभाव"
+
+#~ msgid "Full-Screen YouTube Background"
+#~ msgstr "पूर्ण स्क्रीन यूट्यूब पृष्ठभूमि"
+
+#~ msgid "Youtube Video Url"
+#~ msgstr "YouTube वीडियो URL"
+
+#~ msgid "Top video url"
+#~ msgstr "शीर्ष वीडियो URL"
 
 #~ msgid "Need Help"
 #~ msgstr "कोई मदद चाहिए"
@@ -751,9 +765,6 @@ msgstr "सामाजिक"
 
 #~ msgid "Settings successfully saved. Reloading page for generating preview below."
 #~ msgstr "सेटिंग्स सफलतापूर्वक बना दी गई है। नीचे पूर्वावलोकन पैदा करने के लिए पेज को पुन: लोड किया जा रहा है।"
-
-#~ msgid "Preview"
-#~ msgstr "पूर्वावलोकन"
 
 #~ msgid "Select any time."
 #~ msgstr "कोइ समय चुनें"

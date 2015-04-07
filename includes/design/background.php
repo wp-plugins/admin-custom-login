@@ -350,29 +350,7 @@ function set_slideshow(){
 				</table>
 			</div>
 		</div>
-	</div>
-
-	<div id="div-bakground-youtube" class="no-background">
-		<div style="margin-bottom: 10px;">
-			<img src="<?php echo WEBLIZAR_NALF_PLUGIN_URL.'/images/youtube-background.png'; ?>" class="img-responsive"  style="margin-right: auto;" >
-		</div>
-
-		<div class="panel panel-primary panel-default content-panel">
-			<div class="panel-body">
-				<table class="form-table">
-					<tr>
-						<th scope="row" ><?php _e('Youtube Video Url','WEBLIZAR_ACL')?></th>
-						<td></td>
-					</tr>
-					<tr  style="border-bottom:none;">
-						<td>
-							<input type="text" class="pro_text" id="top_video_url" name="top_video_url" placeholder="<?php _e('Top video url','WEBLIZAR_ACL')?>" size="56" value="<?php echo $top_video_url; ?>" />
-						</td>
-					</tr>
-				</table>
-			</div>
-		</div>
-	</div>
+	</div>	
 
 	<button data-dialog1="somedialog1" class="dialog-button1" style="display:none">Open Dialog</button>
 	<div id="somedialog1" class="dialog" style="position: fixed; z-index: 9999;">
@@ -468,8 +446,7 @@ function Custom_login_top(Action, id){
 		var top_bg_position = jQuery( "#top_bg_position option:selected" ).val();
 		var top_bg_attachment = jQuery( "#top_bg_attachment option:selected" ).val();
 		var top_slideshow_no = jQuery( "#top_slideshow_no option:selected" ).val();
-		var top_bg_slider_animation = jQuery( "#top_bg_slider_animation option:selected" ).val();
-		var top_video_url = jQuery("#top_video_url").val();
+		var top_bg_slider_animation = jQuery( "#top_bg_slider_animation option:selected" ).val();		
 		
 		// Slider image URL and Label Save
 		number = jQuery("#top_slideshow_no").val();
@@ -487,7 +464,7 @@ function Custom_login_top(Action, id){
 			}
 		}
 
-		var PostData = "Action=" + Action + "&select_bg_value=" + select_bg_value + "&top_background_color=" + top_background_color + "&top_bg_image=" + top_bg_image  + "&top_cover=" + top_cover + "&top_bg_repeat=" + top_bg_repeat + "&top_bg_position=" + top_bg_position + "&top_bg_attachment=" + top_bg_attachment + "&top_slideshow_no=" + top_slideshow_no + "&top_bg_slider_animation=" + top_bg_slider_animation + "&top_video_url=" + top_video_url + "&Slidshow_image_1=" + a[1] + "&Slidshow_image_2=" + a[2] + "&Slidshow_image_3=" + a[3] + "&Slidshow_image_4=" + a[4] + "&Slidshow_image_5=" + a[5] + "&Slidshow_image_6=" + a[6] + "&image_label_1=" + b[1] + "&image_label_2=" + b[2] + "&image_label_3=" + b[3] + "&image_label_4=" + b[4] + "&image_label_5=" + b[5] + "&image_label_6=" + b[6];
+		var PostData = "Action=" + Action + "&select_bg_value=" + select_bg_value + "&top_background_color=" + top_background_color + "&top_bg_image=" + top_bg_image  + "&top_cover=" + top_cover + "&top_bg_repeat=" + top_bg_repeat + "&top_bg_position=" + top_bg_position + "&top_bg_attachment=" + top_bg_attachment + "&top_slideshow_no=" + top_slideshow_no + "&top_bg_slider_animation=" + top_bg_slider_animation + "&Slidshow_image_1=" + a[1] + "&Slidshow_image_2=" + a[2] + "&Slidshow_image_3=" + a[3] + "&Slidshow_image_4=" + a[4] + "&Slidshow_image_5=" + a[5] + "&Slidshow_image_6=" + a[6] + "&image_label_1=" + b[1] + "&image_label_2=" + b[2] + "&image_label_3=" + b[3] + "&image_label_4=" + b[4] + "&image_label_5=" + b[5] + "&image_label_6=" + b[6];
 		jQuery.ajax({
 			dataType : 'html',
 			type: 'POST',
@@ -583,9 +560,6 @@ function Custom_login_top(Action, id){
 				// Top Background Image
 				document.getElementById("top_image").value = "<?php echo WEBLIZAR_NALF_PLUGIN_URL?>/images/3d-background.jpg";
 
-				// Top Video URL
-				document.getElementById("top_video_url").value ="";
-
 				// Top Background Color
 				jQuery("#td-top-background-color a.wp-color-result").closest("a").css({"background-color": "#f9fad2"});
 
@@ -630,7 +604,6 @@ if(isset($_POST['Action'])) {
 		$top_bg_attachment = $_POST['top_bg_attachment'];
 		$top_slideshow_no = $_POST['top_slideshow_no'];
 		$top_bg_slider_animation = $_POST['top_bg_slider_animation'];
-		$top_video_url = $_POST['top_video_url'];
 		
 		$Slidshow_image_1 = $_POST['Slidshow_image_1'];
 		$Slidshow_image_2 = $_POST['Slidshow_image_2'];
@@ -656,8 +629,7 @@ if(isset($_POST['Action'])) {
 			'top_position' => $top_bg_position,
 			'top_attachment' => $top_bg_attachment,
 			'top_slideshow_no' => $top_slideshow_no,
-			'top_bg_slider_animation' => $top_bg_slider_animation,
-			'top_video_url' => $top_video_url
+			'top_bg_slider_animation' => $top_bg_slider_animation
 		));
 		update_option('Admin_custome_login_top', $top_page);
 
@@ -688,8 +660,7 @@ if(isset($_POST['Action'])) {
 			'top_position' => 'left top',
 			'top_attachment' => 'fixed',
 			'top_slideshow_no' => '6',
-			'top_bg_slider_animation' => 'slider-style1',
-			'top_video_url' => ''
+			'top_bg_slider_animation' => 'slider-style1'
 		));
 		update_option('Admin_custome_login_top', $top_page);
 		$Slidshow_image= serialize(array(

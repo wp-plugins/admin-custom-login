@@ -1,5 +1,10 @@
 <!-- Dashboard Settings panel content --->
 <Script>
+//logo Image preview
+function Acl_show_Image_3() {
+	var img_src= document.getElementById("logo-image").value;
+	jQuery("#logo_img_prev").attr('src',img_src);   
+}
 //button Button-font-size slider
 jQuery(function() {
 	jQuery( "#logo-width-slider" ).slider({
@@ -57,7 +62,26 @@ jQuery(function() {
 					<td>
 						<input type="text" class="pro_text" id="logo-image" placeholder="<?php _e('No media selected!','WEBLIZAR_ACL')?>" name="upload_image" disabled="disabled"  value="<?php echo $logo_image; ?>"/>
 						<input type="button" value="<?php _e('Upload','WEBLIZAR_ACL')?>" id="upload-logo" class="button-primary rcsp_media_upload"/>
-						<input type="button" id="display-logo" value="<?php _e('preview','WEBLIZAR_ACL')?>" class="button " />
+						
+						<input type="button" id="display-logo" value="<?php _e('preview','WEBLIZAR_ACL')?>" data-toggle="modal" data-target="#logo_about_us_image_builder" class="button " onclick="Acl_show_Image_3()"/>
+						
+						<!-- Modal -->
+						<div class="modal " id="logo_about_us_image_builder" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabel"><?php _e('Login Background Image','WEBLIZAR_ACL')?></h4>
+									</div>
+									<div class="modal-body">
+										<img class="show_prev_img" src="" style="width:100%; height:50%" id="logo_img_prev"/>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal"><?php _e('Close','WEBLIZAR_ACL')?></button>
+									</div>
+								</div>
+							</div>
+						</div>
 					</td>
 				</tr>
 			</table>
