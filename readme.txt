@@ -47,8 +47,14 @@ If you have any question contact us at here: [Plugin Support Forum ](http://word
 == Screenshots ==
 
 1. Custom Login Page Preview
-2. Plugin Settings Panel
-
+2. Demo 2  
+3. Demo 3
+4. Demo 4
+4. Demo 5
+5. social link up
+6. Admin settings layout
+7. Admin settings layout 2
+ 
 == Changelog ==
 
 For more information, see [Weblizar](http://wwww.weblizar.com/)
