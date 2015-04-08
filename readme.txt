@@ -44,6 +44,7 @@ This is our most key feature of this plugin. We have provide you our best to add
 
 ### Social Link Connectivity:
 In this plugin you will able to add social icon to link your social profile with your login form. Socile profiles names are
+
 * Twitter
 * Facebook
 * Linkedin
