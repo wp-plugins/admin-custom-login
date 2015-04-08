@@ -18,12 +18,6 @@ Pugin allows to change background color, background image, background slide show
 
 **Live Demo:** [Admin Custom Login Live Demo](http://demo.weblizar.com/admin-custom-login/wp-login.php)
 
-> #### **Admin Demo**
-> * [Admin Demo](http://demo.weblizar.com/admin-custom-login-admin-demo/wp-login.php)
-> **Username:** userdemo
-> **Password:** userdemo
->
-
 
 > **Standard Features**
 >
@@ -71,6 +65,13 @@ Plugin is integrated with 500+ google fonts. So add beautiful font styles fro yo
 
 ### Unlimited colour Scheme 
 Theere you able update plugin design with unlimited colours. Colour option is available for both login form panel and background  
+
+> #### **Admin Demo**
+> * [Admin Demo](http://demo.weblizar.com/admin-custom-login-admin-demo/wp-login.php)
+> **Username:** userdemo
+>
+> **Password:** userdemo
+>
 
 
 If you have any question contact us at here: [Plugin Support Forum ](http://wordpress.org/support/plugin/admin-custom-login) 
