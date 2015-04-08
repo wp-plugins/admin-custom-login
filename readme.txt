@@ -68,6 +68,7 @@ Theere you able update plugin design with unlimited colours. Colour option is av
 
 > #### **Admin Demo**
 > * [Admin Demo](http://demo.weblizar.com/admin-custom-login-admin-demo/wp-login.php)
+>
 > **Username:** userdemo
 >
 > **Password:** userdemo
