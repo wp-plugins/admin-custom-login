@@ -45,7 +45,9 @@
 				</tr>
 				<tr class="radio-span" style="border-bottom:none;">
 					<td>
-						<span> <a href="<?php echo get_bloginfo( 'url' ); ?>/wp-login.php" target="_blank"><?php _e( 'Open Your WP Login Page in a New Tab', 'WEBLIZAR_ACL' ); ?></a></span>
+						<h4>Copy below link and open in another browser where you are not logged in</h4>
+						<br>
+						<span style="color:#ef4238">  <?php echo wp_login_url(); ?> </span>
 					</td>
 				</tr>
 			</table>
