@@ -3,8 +3,8 @@ Contributors: weblizar
 Donate link: http://www.weblizar.com/
 Tags: admin, admin login, admin login page, customize, admin custom login, custom login,  branding, custom login, custom login pro, customization, error, login, login error, logo,  customization, themes, wordpress login, login form, admin login form, wordpress login, plugin, jquery form, jquery,  customization, customizer, custom login plugin, background , sideshow, social form, social connect, social share, facebook, twitter, google plug, linkedin, background slideshow, image, logo, custom logo, wordpress admin login, wp login, wp-login, log in, admin, role, subscriber, captcha, security login, customize wordpress login form, wp login form, login form plugin, ogin page, logo, style log in, style login, themes, custom login page, css , html, form style,       
 Requires at least: 3.3
-Tested up to: 4.1.1
-Stable tag: 1.2
+Tested up to: 4.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -99,6 +99,15 @@ If you have any question contact us at here: [Plugin Support Forum ](http://word
 == Changelog ==
 
 For more information, see [Weblizar](http://wwww.weblizar.com/)
+
+= Version 1.3 22/04/2015 =
+
+* Input box Icon colour changed on changing input box text colour.
+* Remove the bug of log-in form background opacity.
+* Set proper alignment of logo image on login form floating left or right
+* Set proper alignment of links on right floating of log-in form
+* Increase spacing between "remember me" option and social label.
+* Compatible with WordPress 4.2 version
 
 = Version 1.2 08/04/2015 =
 

@@ -129,10 +129,18 @@ function acl_er_login_logo() {
         body.login div#login h1 a {
             background-image: url(<?php echo $logo_page['logo_image']; ?>) !important;
             padding-bottom: 30px;
-			margin: 0 auto;
+			<?php if($login_page['login_form_float'] == "center") {?>
+				margin: 0 auto;
+			<?php }?>
+			<?php if($login_page['login_form_float'] == "left") {?>
+				margin-left:30px;
+			<?php }?>
+			<?php if($login_page['login_form_float'] == "right") {?>
+				margin-right:25px;
+			<?php }?>
 			background-size: <?php echo $logo_page['logo_width'] ?>px <?php echo $logo_page['logo_height'] ?>px;
 			width: <?php echo $logo_page['logo_width'] ?>px;
-			height: <?php echo $logo_page['logo_height'] ?>px;
+			height: <?php echo $logo_page['logo_height'] ?>px;			
         }
 
 		<?php 
@@ -184,20 +192,11 @@ function acl_er_login_logo() {
 			  background:  url(<?php echo $login_page['login_bg_image'] ?>) <?php echo $login_page['login_bg_repeat'] ?> <?php echo $login_page['login_bg_position'] ?>;		
 			  
 			 background: rgba(<?php echo $loginbg['red'];?>,<?php echo $loginbg['green']?>,<?php echo $loginbg['blue']?>,<?php echo $login_form_opacity ?>);
-		}
-		.login form:before {
-		  content: "";
-		  position: absolute;
-		  z-index: -1;
-		  top: 0;
-		  bottom: 0;
-		  left: 0;
-		  right: 0;	  
-		  <?php if($login_page['login_bg_type'] == "static-background-image" ){?>	
-		  background: url('<?php echo WEBLIZAR_NALF_PLUGIN_URL.'css/img/'.$login_page['login_bg_effect'].'.png'; ?>') repeat scroll left top, url(<?php echo $login_page['login_bg_image'] ?>) <?php echo $login_page['login_bg_repeat'] ?> <?php echo $login_page['login_bg_position'] ?>;
-		  <?php } ?>
-		  opacity: <?php echo $login_form_opacity ?>;			
-		}
+			 
+			 <?php if($login_page['login_bg_type'] == "static-background-image" ){?>	
+				background: url('<?php echo WEBLIZAR_NALF_PLUGIN_URL.'css/img/'.$login_page['login_bg_effect'].'.png'; ?>') repeat scroll left top, url(<?php echo $login_page['login_bg_image'] ?>) <?php echo $login_page['login_bg_repeat'] ?> <?php echo $login_page['login_bg_position'] ?>;
+			<?php } ?>
+		}		
 		
 		 .icon-ph {
 			display: inline-block;
@@ -216,7 +215,7 @@ function acl_er_login_logo() {
 			top:4px;
 			bottom:3px;
 			z-index:3;
-			color:black;
+			color:<?php echo $text_and_color_page['input_font_color'] ?>;
 		  }
 		.custom-text {
 			padding:6px 6px 6px 30px ;
@@ -258,6 +257,17 @@ function acl_er_login_logo() {
 		body.login #nav, body.login #backtoblog {
 			text-shadow: <?php echo $link_shadow_color ?>;
 		}
+		<?php if($login_page['login_form_float'] == "right") { ?>
+		.login #nav {
+			margin: 29px 0 60px;
+		}
+		body.login #nav a{
+			float:right;
+		}
+		body.login #backtoblog a {
+			float:right;
+		}
+		<?php } ?>
 </style>
 		
 <?php

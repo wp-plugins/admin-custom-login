@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Admin Costum Login
- * Version: 1.2
+ * Version: 1.3
  * Responsive Login Form Allow You Setting Of login Form.
  * Author: weblizar
  * Author URI: http://www.weblizar.com
@@ -117,7 +117,7 @@ function acl_footer_func() {
 		
 		//enable Social Icon In inner login form 
 		<?php if($Social_page['enable_social_icon'] == "inner" || $Social_page['enable_social_icon'] == "both") {?>
-		jQuery( ".forgetmenot" ).append('<div style="padding-top:10px"><div style="color:<?php echo $heading_font_color; ?>; font-size:<?php echo $heading_font_size;?>px; ">Connect Us :</div><div style="padding-top:5px"><?php if($Social_page['social_twitter_link']!=''){ ?><a href="<?php echo $Social_page['social_twitter_link'];?>" class="icon-button twitter"><i class="fa fa-twitter"></i><span></span></a><?php } if($Social_page['social_facebook_link']!=''){ ?> <a href="<?php echo $Social_page['social_facebook_link'];?>" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a> <?php } if($Social_page['social_google_plus_link']!=''){ ?> <a href="<?php echo $Social_page['social_google_plus_link'];?>" class="icon-button google-plus"><i class="fa fa-google-plus"></i><span></span></a><?php } if($Social_page['social_linkedin_link']!=''){ ?> <a href="<?php echo $Social_page['social_linkedin_link'];?>" class="icon-button linkedin"> <i class="fa fa-linkedin"> </i> <span></span> </a> <?php } if($Social_page['social_pinterest_link']!=''){ ?><a href="<?php echo $Social_page['social_pinterest_link'];?>" class="icon-button pinterest"><i class="fa fa-pinterest"></i><span></span></a><?php } ?><div></div>' );
+		jQuery( ".forgetmenot" ).append('<div style="padding-top:16px"><div style="color:<?php echo $heading_font_color; ?>; font-size:<?php echo $heading_font_size;?>px; ">Connect Us :</div><div style="padding-top:5px"><?php if($Social_page['social_twitter_link']!=''){ ?><a href="<?php echo $Social_page['social_twitter_link'];?>" class="icon-button twitter"><i class="fa fa-twitter"></i><span></span></a><?php } if($Social_page['social_facebook_link']!=''){ ?> <a href="<?php echo $Social_page['social_facebook_link'];?>" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a> <?php } if($Social_page['social_google_plus_link']!=''){ ?> <a href="<?php echo $Social_page['social_google_plus_link'];?>" class="icon-button google-plus"><i class="fa fa-google-plus"></i><span></span></a><?php } if($Social_page['social_linkedin_link']!=''){ ?> <a href="<?php echo $Social_page['social_linkedin_link'];?>" class="icon-button linkedin"> <i class="fa fa-linkedin"> </i> <span></span> </a> <?php } if($Social_page['social_pinterest_link']!=''){ ?><a href="<?php echo $Social_page['social_pinterest_link'];?>" class="icon-button pinterest"><i class="fa fa-pinterest"></i><span></span></a><?php } ?><div></div>' );
 		<?php } ?>
 		//enable Social Icon In outer login form 
 		<?php if($Social_page['enable_social_icon'] == "outer" || $Social_page['enable_social_icon'] == "both") {?>

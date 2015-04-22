@@ -24,6 +24,7 @@
 				<?php }?>
 				<?php if($login_page['login_form_float'] == "right") {?>
 					padding-right: 0px;
+					padding-top:42px;
 				<?php }?>
 			}
 
@@ -105,6 +106,7 @@
 				<?php }?>
 				<?php if($login_page['login_form_float'] == "right") {?>
 					padding-right: 0px;
+					padding-top:42px;
 				<?php }?>
 			}	
 
@@ -186,6 +188,7 @@
 				<?php }?>
 				<?php if($login_page['login_form_float'] == "right") {?>
 					padding-right: 0px;
+					padding-top:42px;
 				<?php }?>
 			}
 

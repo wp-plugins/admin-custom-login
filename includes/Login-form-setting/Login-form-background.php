@@ -223,6 +223,23 @@ function loginbgchange() {
 					</table>
 				</div>
 			</div>
+			<div class="panel panel-primary panel-default content-panel">
+				<div class="panel-body">
+					<table class="form-table">
+						<tr>
+							<th scope="row" ><?php _e('Login Form Opacity','WEBLIZAR_ACL')?></th>
+							<td></td>
+						</tr>
+						<tr  style="border-bottom:none;">
+							<td>
+								<div id="login-opacity-slider" class="size-slider" style="width: 30%;display:inline-block"></div>
+								<input type="text" class="slider-text" id="login-opacity-text-box" name="login-opacity-text-box"  readonly="readonly">
+								<span class="slider-text-span">Px</span>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
 		</div>
 		<div id="div-login-bg-image" class="no-login-bg">
 			<div style="margin-bottom: 10px;">
@@ -335,23 +352,7 @@ function loginbgchange() {
 				</table>
 			</div>
 		</div>
-		<div class="panel panel-primary panel-default content-panel">
-			<div class="panel-body">
-				<table class="form-table">
-					<tr>
-						<th scope="row" ><?php _e('Login Form Opacity','WEBLIZAR_ACL')?></th>
-						<td></td>
-					</tr>
-					<tr  style="border-bottom:none;">
-						<td>
-							<div id="login-opacity-slider" class="size-slider" style="width: 30%;display:inline-block"></div>
-							<input type="text" class="slider-text" id="login-opacity-text-box" name="login-opacity-text-box"  readonly="readonly">
-							<span class="slider-text-span">Px</span>
-						</td>
-					</tr>
-				</table>
-			</div>
-		</div>	
+			
 		<div class="panel panel-primary panel-default content-panel">
 			<div class="panel-body">
 				<table class="form-table">
