@@ -258,11 +258,13 @@ function Custom_login_social(Action, id){
 		var social_icon_color_onhover = jQuery("#social-icon-color-onhover").val();
 		var social_icon_bg = jQuery("#social-bg-color").val();
 		var social_icon_bg_onhover = jQuery("#social-bg-color-onhover").val();
-		var social_facebook_link = jQuery("#facebook-link").val();
-		var social_twitter_link = jQuery("#twitter-link").val();
-		var social_linkedin_link = jQuery("#linkedin-link").val();
-		var social_google_plus_link = jQuery("#google-plus-link").val();
-		var social_pinterest_link = jQuery("#pinterest-link").val();
+		
+		// Social Links
+		var social_facebook_link = encodeURIComponent(jQuery("#facebook-link").val());
+		var social_twitter_link = encodeURIComponent(jQuery("#twitter-link").val());
+		var social_linkedin_link = encodeURIComponent(jQuery("#linkedin-link").val());
+		var social_google_plus_link = encodeURIComponent(jQuery("#google-plus-link").val());
+		var social_pinterest_link = encodeURIComponent(jQuery("#pinterest-link").val());
 
 		var PostData = "Action=" + Action + "&enable_social_icon=" + enable_social_icon + "&social_icon_size=" + social_icon_size + "&social_icon_layout=" + social_icon_layout + "&social_icon_color=" + social_icon_color + "&social_icon_color_onhover=" + social_icon_color_onhover + "&social_icon_bg=" + social_icon_bg  + "&social_icon_bg_onhover=" + social_icon_bg_onhover + "&social_facebook_link=" + social_facebook_link + "&social_twitter_link=" + social_twitter_link + "&social_linkedin_link=" + social_linkedin_link + "&social_google_plus_link=" + social_google_plus_link + "&social_pinterest_link=" + social_pinterest_link;
 		jQuery.ajax({

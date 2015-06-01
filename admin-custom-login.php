@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Admin Costum Login
- * Version: 1.3
- * Responsive Login Form Allow You Setting Of login Form.
+ * Version: 1.4
+ * Description: Admin Custom Login plugin allows you to change your Login Form.
  * Author: weblizar
  * Author URI: http://www.weblizar.com
  * Plugin URI: http://weblizar.com/plugins/admin-custom-login
@@ -31,8 +31,8 @@ require_once("login-form-screen.php");
 add_action('admin_menu','acl_weblizar_admin_custom_login_menu');
 function acl_weblizar_admin_custom_login_menu() {
     //plugin menu name for Admin Costume Login
-    $acl_menu = add_menu_page('Admin custom Login', 'Admin custom Login','administrator', 'admin_custom_login','acl_admin_custom_login_content');
-    
+   // $acl_menu = add_menu_page('Admin custom Login', 'Admin custom Login','administrator', 'admin_custom_login','acl_admin_custom_login_content');
+    $acl_menu = add_submenu_page( 'options-general.php','Admin custom Login', 'Admin custom Login','administrator', 'admin_custom_login','acl_admin_custom_login_content' );
     //add hook to add styles and scripts for Admin Costume Login admin page
     add_action( 'admin_print_styles-' . $acl_menu, 'acl_admin_custom_login_js_css' );
 }
@@ -103,12 +103,12 @@ function acl_footer_func() {
 		jQuery('#loginform label[for="user_pass"]').attr('id', 'pwd_input_lable');
 
 		<?php if($enable_inputbox_icon=='yes'){?>
-		document.getElementById("log_input_lable").innerHTML="User Name<div class='input-container'> <div class='icon-ph'><i class='fa <?php echo $user_input_icon; ?>'></i></div> <input id='user_login' name='log' class='input' type='text' placeholder='User Name'></div>";
-		document.getElementById("pwd_input_lable").innerHTML="Password<div class='input-container'> <div class='icon-ph'><i class='fa <?php echo $password_input_icon; ?>'></i></div> <input id='user_pass' name='pwd' class='input' type='password' placeholder='Password'></div>";
+		document.getElementById("log_input_lable").innerHTML="<?php _e('User Name','WEBLIZAR_ACL');?><div class='input-container'> <div class='icon-ph'><i class='fa <?php echo $user_input_icon; ?>'></i></div> <input id='user_login' name='log' class='input' type='text' placeholder='<?php _e('User Name','WEBLIZAR_ACL');?>'></div>";
+		document.getElementById("pwd_input_lable").innerHTML="<?php _e('Password','WEBLIZAR_ACL');?><div class='input-container'> <div class='icon-ph'><i class='fa <?php echo $password_input_icon; ?>'></i></div> <input id='user_pass' name='pwd' class='input' type='password' placeholder='<?php _e('Password','WEBLIZAR_ACL');?>'></div>";
 		jQuery('body.login div#login form .input, .login input[type="text"]').css('padding','5px 5px 5px 45px');
 		<?php } else { ?>
-		jQuery('#loginform #user_login').attr('placeholder', 'User Name');
-		jQuery('#loginform #user_pass').attr('placeholder', 'Password');
+		jQuery('#loginform #user_login').attr('placeholder', '<?php _e('User Name','WEBLIZAR_ACL');?>');
+		jQuery('#loginform #user_pass').attr('placeholder', '<?php _e('Password','WEBLIZAR_ACL');?>');
 		jQuery('body.login div#login form .input, .login input[type="text"]').css('padding','5px 5px 5px 5px');
 		<?php }?>
 		<?php if ($top_page['top_bg_type'] == "slider-background"){ ?>
@@ -117,7 +117,7 @@ function acl_footer_func() {
 		
 		//enable Social Icon In inner login form 
 		<?php if($Social_page['enable_social_icon'] == "inner" || $Social_page['enable_social_icon'] == "both") {?>
-		jQuery( ".forgetmenot" ).append('<div style="padding-top:16px"><div style="color:<?php echo $heading_font_color; ?>; font-size:<?php echo $heading_font_size;?>px; ">Connect Us :</div><div style="padding-top:5px"><?php if($Social_page['social_twitter_link']!=''){ ?><a href="<?php echo $Social_page['social_twitter_link'];?>" class="icon-button twitter"><i class="fa fa-twitter"></i><span></span></a><?php } if($Social_page['social_facebook_link']!=''){ ?> <a href="<?php echo $Social_page['social_facebook_link'];?>" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a> <?php } if($Social_page['social_google_plus_link']!=''){ ?> <a href="<?php echo $Social_page['social_google_plus_link'];?>" class="icon-button google-plus"><i class="fa fa-google-plus"></i><span></span></a><?php } if($Social_page['social_linkedin_link']!=''){ ?> <a href="<?php echo $Social_page['social_linkedin_link'];?>" class="icon-button linkedin"> <i class="fa fa-linkedin"> </i> <span></span> </a> <?php } if($Social_page['social_pinterest_link']!=''){ ?><a href="<?php echo $Social_page['social_pinterest_link'];?>" class="icon-button pinterest"><i class="fa fa-pinterest"></i><span></span></a><?php } ?><div></div>' );
+		jQuery( ".forgetmenot" ).append('<div style="padding-top:16px"><div style="color:<?php echo $heading_font_color; ?>; font-size:<?php echo $heading_font_size;?>px; "><?php _e('Contact Us:','WEBLIZAR_ACL'); ?> :</div><div style="padding-top:5px"><?php if($Social_page['social_twitter_link']!=''){ ?><a href="<?php echo $Social_page['social_twitter_link'];?>" class="icon-button twitter"><i class="fa fa-twitter"></i><span></span></a><?php } if($Social_page['social_facebook_link']!=''){ ?> <a href="<?php echo $Social_page['social_facebook_link'];?>" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a> <?php } if($Social_page['social_google_plus_link']!=''){ ?> <a href="<?php echo $Social_page['social_google_plus_link'];?>" class="icon-button google-plus"><i class="fa fa-google-plus"></i><span></span></a><?php } if($Social_page['social_linkedin_link']!=''){ ?> <a href="<?php echo $Social_page['social_linkedin_link'];?>" class="icon-button linkedin"> <i class="fa fa-linkedin"> </i> <span></span> </a> <?php } if($Social_page['social_pinterest_link']!=''){ ?><a href="<?php echo $Social_page['social_pinterest_link'];?>" class="icon-button pinterest"><i class="fa fa-pinterest"></i><span></span></a><?php } ?><div></div>' );
 		<?php } ?>
 		//enable Social Icon In outer login form 
 		<?php if($Social_page['enable_social_icon'] == "outer" || $Social_page['enable_social_icon'] == "both") {?>

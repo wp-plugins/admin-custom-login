@@ -1,10 +1,10 @@
-=== Custom Login Plugin===
+=== Custom Login Plugin ===
 Contributors: weblizar
 Donate link: http://www.weblizar.com/
 Tags: admin, admin login, admin login page, customize, admin custom login, custom login,  branding, custom login, custom login pro, customization, error, login, login error, logo,  customization, themes, wordpress login, login form, admin login form, wordpress login, plugin, jquery form, jquery,  customization, customizer, custom login plugin, background , sideshow, social form, social connect, social share, facebook, twitter, google plug, linkedin, background slideshow, image, logo, custom logo, wordpress admin login, wp login, wp-login, log in, admin, role, subscriber, captcha, security login, customize wordpress login form, wp login form, login form plugin, ogin page, logo, style log in, style login, themes, custom login page, css , html, form style,       
 Requires at least: 3.3
-Tested up to: 4.2
-Stable tag: 1.3
+Tested up to: 4.2.2
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,19 +22,19 @@ Pugin allows to change background color, background image, background slide show
 > **Standard Features**
 >
 > * Add Your Own Custom Logo On Login Form
-> * Background Color
+> * Background Colour
 > * Background Image
 > * Background Image Slide Show
 > * Login Form Position
-> * Login Form Color
-> * Login Form Color Opacity
-> * Login Form Font Color
+> * Login Form Colour
+> * Login Form Colour Opacity
+> * Login Form Font Colour
 > * Login Form Font Size
-> * Login Form Button Color
+> * Login Form Button Colour
 > * Login Form Button Size
 > * Login Form Background
 > * Add Social Media Icon On Login Form
-> * Social Media Icon Color
+> * Social Media Icon Colour
 > * Social Media Icon Size
 > * Interactive Plugin Dashboard
 >
@@ -82,7 +82,7 @@ If you have any question contact us at here: [Plugin Support Forum ](http://word
 
 1. Upload the entire **admin-custom-login** folder to the **/wp-content/plugins/** directory.
 2. Activate the plugin through the **Plugins** menu in WordPress admin.
-3. Go to the Admin Custom Login plugin menu page.
+3. Go to the under Setting menu -> Admin Custom Login plugin sub menu page.
 4. Start customizing your admin login form.
 
 == Screenshots ==
@@ -99,6 +99,12 @@ If you have any question contact us at here: [Plugin Support Forum ](http://word
 == Changelog ==
 
 For more information, see [Weblizar](http://wwww.weblizar.com/)
+
+= Version 1.4 22/04/2015 =
+
+* Remove Problem of Social Connectivity.
+* Bug Fix of not converting Username and Password on language.
+* Move "Admin Custom Login" under "settings" menu.
 
 = Version 1.3 22/04/2015 =
 
