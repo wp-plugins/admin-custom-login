@@ -47,14 +47,6 @@ function acl_er_login_logo() {
     else {
         $login_form_opacity = '0.'.$login_page['login_form_opacity'];
     }
-	
-	if($top_page['top_cover']=="yes")
-	{
-		$strech="100%";
-	}
-	else{
-		$strech="auto";
-	}
 
 	function weblizar_hex2rgb( $colour ) {
         if ( $colour[0] == '#' ) {
@@ -115,8 +107,21 @@ function acl_er_login_logo() {
 		else if ($top_page['top_bg_type'] == "static-background-image"){
 		?>
 		html body.login {
-			background: url(<?php echo $top_page['top_image'] ?>) <?php echo $top_page['top_repeat'] ?>  <?php echo $top_page['top_position'] ?> !important ; 
-			background-size: <?php echo $strech ?> !important;
+			<?php if($top_page['top_cover']=="yes")
+				{?>
+					background: url(<?php echo $top_page['top_image'] ?>) no-repeat center center fixed; 
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;
+				<?php
+				}
+				else{?>
+					background: url(<?php echo $top_page['top_image'] ?>) <?php echo $top_page['top_repeat'] ?>  <?php echo $top_page['top_position'] ?> !important ; 
+					background-size: auto !important;
+				<?php
+				}
+			?>
 		}
 		<?php } 
 		else if ($top_page['top_bg_type'] == "slider-background"){

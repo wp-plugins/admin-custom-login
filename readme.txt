@@ -4,7 +4,7 @@ Donate link: http://www.weblizar.com/
 Tags: admin, admin login, admin login page, customize, admin custom login, custom login,  branding, custom login, custom login pro, customization, error, login, login error, logo,  customization, themes, wordpress login, login form, admin login form, wordpress login, plugin, jquery form, jquery,  customization, customizer, custom login plugin, background , sideshow, social form, social connect, social share, facebook, twitter, google plug, linkedin, background slideshow, image, logo, custom logo, wordpress admin login, wp login, wp-login, log in, admin, role, subscriber, captcha, security login, customize wordpress login form, wp login form, login form plugin, ogin page, logo, style log in, style login, themes, custom login page, css , html, form style,       
 Requires at least: 3.3
 Tested up to: 4.2.2
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -99,6 +99,14 @@ If you have any question contact us at here: [Plugin Support Forum ](http://word
 == Changelog ==
 
 For more information, see [Weblizar](http://wwww.weblizar.com/)
+
+= Version 1.5 08/07/2015 =
+
+* Add Export Import Setting.
+* Increase Logo Width and Height Upto 500px.
+* Bug Fix of 'Background SlideShow' not working in Lost your password page.
+* Bug Fix of Inner Social Icon not working in Lost your password page.
+* Bug Fix of Background Image Strech.
 
 = Version 1.4 22/04/2015 =
 

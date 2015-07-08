@@ -82,15 +82,14 @@
 					<td>
 						
 						<h4  > If you have any suggestion or features in your mind then please share us. We will try our best to add them in this plugin. </h4>
-						
-						
+
 					</td>
 				</tr>
 			</table>
 		</div>
 	</div>
 
-<div class="panel panel-primary panel-default content-panel">
+	<div class="panel panel-primary panel-default content-panel">
 		<div class="panel-body">
 			<table class="form-table">
 				<tr>
@@ -99,11 +98,9 @@
 				</tr>
 				<tr class="radio-span" style="border-bottom:none;">
 					<td>
-						
-						<h4  > Translate this plugin into your language </h4>
+						<h4> Translate this plugin into your language </h4>
 						<h4>Question : How to convert Plguin into My Language ? </h4>
 						<a href="http://weblizar.com/customize-your-wordpress-login-page" target="_new" type="button" class="btn btn-info btn-lg" style="color:#fff"><?php _e('here is solution','')?></a>
-		
 					</td>
 				</tr>
 			</table>

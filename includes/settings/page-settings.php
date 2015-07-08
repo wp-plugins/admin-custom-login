@@ -10,7 +10,7 @@ jQuery(function() {
 	jQuery( "#logo-width-slider" ).slider({
 		orientation: "horizontal",
 		range: "min",
-		max: 300,
+		max: 500,
 		min:0,
 		slide: function( event, ui ) {
 			jQuery( "#logo-width-text-box" ).val( ui.value );
@@ -25,7 +25,7 @@ jQuery(function() {
 	jQuery( "#logo-height-slider" ).slider({
 		orientation: "horizontal",
 		range: "min",
-		max: 150,
+		max: 500,
 		min:0,
 		slide: function(event,ui){
 			jQuery( "#logo-height-text-box" ).val( ui.value );

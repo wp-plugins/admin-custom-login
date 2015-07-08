@@ -189,6 +189,18 @@ Fonts
 							<span class="sidebar-item-subtitle"><?php _e('Connect with your social profile','WEBLIZAR_ACL')?></span>
 						</a>
 					</li>
+					
+					<li>
+						<a href="#"  id="ui-id-4">
+							<span class="sidebar-item-icon fa-stack">
+								<i class="fa fa-square fa-stack-2x text-primary"></i>
+								<i class="fa fa-upload fa-stack-1x fa-inverse"></i>
+							</span>
+							<span class="sidebar-item-title"><?php _e('Export / Import','WEBLIZAR_ACL')?></span>
+							<span class="sidebar-item-subtitle"><?php _e('Export / Import Your Data','WEBLIZAR_ACL')?></span>
+						</a>
+					</li>
+					
 					<li>
 						<a href="#"  id="ui-id-2">
 							<span class="sidebar-item-icon fa-stack">
@@ -223,6 +235,9 @@ Fonts
 	</div>
 	<div class="page-wrapper ui-tabs-panel deactive" id="option-ui-id-9">
 	  <?php require_once('social/social.php'); ?>
+	</div>
+	<div class="page-wrapper ui-tabs-panel deactive" id="option-ui-id-4">
+	  <?php require_once('import-export-setting/import_export.php'); ?>
 	</div>
 	<div class="page-wrapper ui-tabs-panel deactive" id="option-ui-id-2">
 	  <?php require_once('help/help.php'); ?>
