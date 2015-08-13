@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Admin Costum Login
- * Version: 1.5
+ * Version: 1.6
  * Description: Admin Custom Login plugin allows you to change your Login Form.
  * Author: weblizar
  * Author URI: http://www.weblizar.com
