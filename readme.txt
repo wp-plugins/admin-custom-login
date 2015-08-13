@@ -79,7 +79,7 @@ Theere you able update plugin design with unlimited colours. Colour option is av
 ### Included Translations:
 
 * Italian(it_IT) by [Giovanni Caputo](http://giovannicaputo.netsons.org)
-* Hindi(hi_HI)[Infigo Software](http://infigosoft.com)
+* Hindi(hi_HI) by [Infigo Software](http://infigosoft.com)
 
 
 
