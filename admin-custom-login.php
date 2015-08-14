@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Admin Costum Login
- * Version: 1.6
+ * Plugin Name: Admin Custom Login
+ * Version: 1.7
  * Description: Admin Custom Login plugin allows you to change your Login Form.
  * Author: weblizar
  * Author URI: http://www.weblizar.com
@@ -17,7 +17,7 @@ function ACL_GetReadyTranslation() {
 }
 
 /**
- * Admin Costume Login installation script
+ * Admin Custom Login installation script
  */
 register_activation_hook( __FILE__, 'ACL_WeblizarDoInstallation' );
 function ACL_WeblizarDoInstallation() {
@@ -25,20 +25,20 @@ function ACL_WeblizarDoInstallation() {
 }
 
 /**
- * Admin Costume Login menu
+ * Admin Custom Login menu
  */
 require_once("login-form-screen.php");
 add_action('admin_menu','acl_weblizar_admin_custom_login_menu');
 function acl_weblizar_admin_custom_login_menu() {
-    //plugin menu name for Admin Costume Login
+    //plugin menu name for Admin Custom Login
    // $acl_menu = add_menu_page('Admin custom Login', 'Admin custom Login','administrator', 'admin_custom_login','acl_admin_custom_login_content');
     $acl_menu = add_submenu_page( 'options-general.php','Admin custom Login', 'Admin custom Login','administrator', 'admin_custom_login','acl_admin_custom_login_content' );
-    //add hook to add styles and scripts for Admin Costume Login admin page
+    //add hook to add styles and scripts for Admin Custom Login admin page
     add_action( 'admin_print_styles-' . $acl_menu, 'acl_admin_custom_login_js_css' );
 }
 
 function acl_admin_custom_login_js_css() {
-    //enqueue scripts page for Admin Costume Login plugin admin panel
+    //enqueue scripts page for Admin Custom Login plugin admin panel
     wp_enqueue_script('theme-preview');
 	wp_enqueue_style('dashboard');
 	wp_enqueue_style('wp-color-picker');
