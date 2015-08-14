@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: admin-custom-login\n"
 "POT-Creation-Date: 2015-04-07 10:44+0530\n"
-"PO-Revision-Date: 2015-08-13 13:00+0200\n"
+"PO-Revision-Date: 2015-08-14 09:06+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it_IT\n"
@@ -22,7 +22,7 @@ msgstr "Impostazioni Login"
 
 #: ../includes/Login-form-setting/Login-form-background.php:168
 msgid "Login from Floating"
-msgstr "Form Login Fluttuante"
+msgstr "Posizione Form Login"
 
 #: ../includes/Login-form-setting/Login-form-background.php:174
 msgid "Left"
@@ -329,19 +329,19 @@ msgstr "Panoramica Applicazione"
 
 #: ../includes/content.php:119
 msgid "Background Design"
-msgstr "Progettazione Sfondo"
+msgstr "Impostazioni Sfondo"
 
 #: ../includes/content.php:120
 msgid "Modify Background design here"
-msgstr "Modifica progettazione Sfondo qui"
+msgstr "Modifica impostazioni sfondo"
 
 #: ../includes/content.php:130
 msgid "Login form Setting"
-msgstr "Impostazioni Form Login"
+msgstr "Impostazioni Login"
 
 #: ../includes/content.php:131
 msgid "Modify Login design here"
-msgstr "Modifica progettazione login qui "
+msgstr "Modifica impostazioni login "
 
 #: ../includes/content.php:141
 msgid "Font Setting"
@@ -369,7 +369,7 @@ msgstr "Connettersi con profili Social"
 
 #: ../includes/dashboard/dashboard.php:11
 msgid "Admin Custom Login Dashboard"
-msgstr "Cruscotto Login Amministrazione Personalizzato"
+msgstr "Amministrazione Login Personalizzato"
 
 #: ../includes/dashboard/dashboard.php:23
 msgid "Admin Custom login Status"
@@ -546,7 +546,7 @@ msgstr "Stile Font Tasto"
 
 #: ../includes/design/text_and_color.php:2567
 msgid "Enable Input Box Icon?"
-msgstr "Abilitare Icone per Box Inserimento"
+msgstr "Abilitare icone nelle caselle di testo?"
 
 #: ../includes/design/text_and_color.php:2587
 msgid "Icon For user Input Box"
