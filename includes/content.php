@@ -211,6 +211,16 @@ Fonts
 							<span class="sidebar-item-subtitle"><?php _e('Ask your query','WEBLIZAR_ACL')?></span>
 						</a>
 					</li>
+					<li>
+						<a href="#"  id="ui-id-10">
+							<span class="sidebar-item-icon fa-stack">
+								<i class="fa fa-square fa-stack-2x text-primary"></i>
+								<i class="fa fa-star fa-stack-1x fa-inverse"></i>
+							</span>
+							<span class="sidebar-item-title"><?php _e('Please rate us ','WEBLIZAR_ACL')?></span>
+							<span class="sidebar-item-subtitle"><?php _e('If you like us','WEBLIZAR_ACL')?></span>
+						</a>
+					</li>
 				</ul>
 			</div>
 			<!-- /.sidebar-collapse -->
@@ -241,6 +251,9 @@ Fonts
 	</div>
 	<div class="page-wrapper ui-tabs-panel deactive" id="option-ui-id-2">
 	  <?php require_once('help/help.php'); ?>
+	</div>
+		<div class="page-wrapper ui-tabs-panel deactive" id="option-ui-id-10">
+	  <?php require_once('help/rate.php'); ?>
 	</div>
 </div>
 <!-- /#wrapper -->
